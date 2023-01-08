@@ -1,0 +1,3 @@
+There are four regular factors: kfb, awwzy, moeh, and hfwn. The kfb factor consists of two levels: "fvdwcy" and "isd". The awwzy factor also consists of two levels: "haqh" and "nunh". The moeh factor consists of two levels: "fvdwcy" and "isd". The hfwn factor also consists of two levels: "haqh" and "nunh".
+The bvdn factor depends on the hfwn and awwzy factors and has two levels: "evws" and "illqj". If the hfwn factor matches the awwzy factor, then the trial is considered "evws". Otherwise, the trial is considered "illqj".
+We crossed the kfb and the awwzy factor.

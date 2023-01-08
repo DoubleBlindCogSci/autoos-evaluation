@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are four regular factors: chrlaq, fbxkr, iuqbla, and mozm. The chrlaq factor consists of two levels: "tdmy" and "jevqi". The fbxkr factor also consists of two levels: "brsx" and "soct". The iuqbla factor consists of two levels: "tdmy" and "jevqi". The mozm factor consists of two levels: "brsx" and "soct".
+### DERIVED FACTORS
+There is a derived factor called fjoa.
+## fjoa
+The fjoa factor depends on the mozm and iuqbla factors and has two levels: "icnyt" and "ove". If the mozm factor matches the iuqbla factor, then the trial is considered "icnyt". Otherwise, the trial is considered "ove".
+### EXPERIMENT
+We crossed the iuqbla and the chrlaq factor. However, the experiment sequences were generated subject to two constraints. First, we allowed for no more than 4 of the same fjoa in a row. Second, we allowed for exactly 4 of the same fbxkr in a row.
+### END OF EXPERIMENT DESIGN

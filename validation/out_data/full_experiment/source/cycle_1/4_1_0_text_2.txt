@@ -1,0 +1,3 @@
+There are five regular factors: vsjz, jko, smcarz, khud, and zwizsh. The vsjz factor consists of two levels: "sjui" and "ikecv". The jko factor consists of two levels: "bqht" and "weiurp". The smcarz factor consists of two levels: "sjui" and "ikecv". The khud factor consists of two levels: "bqht" and "weiurp". The zwizsh factor consists of two levels: "inny" and "foini".
+The zwizsh factor depends on the khud and vsjz factors and has two levels: "inny" and "foini". A trial is considered "inny" if the khud factor matches the vsjz factor, otherwise, it is considered "foini".
+We crossed the smcarz and the khud factor.

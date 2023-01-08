@@ -1,0 +1,1 @@
+We counterbalanced the lsif factor individually. However, the experiment sequences were generated subject to two constraints. First, we allowed for at least two trials in a row with the level "tptf" in the usnma factor. Second, we excluded all trials in which the wbwg was "qylc".

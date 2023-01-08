@@ -1,0 +1,1 @@
+The kkvmaj factor depends on the fmq factor and has two levels: "xldt" and "fxq". If the fmq is not "cvsb" or "yerlnd", then the trial is "xldt". Otherwise, the trial is "fxq".

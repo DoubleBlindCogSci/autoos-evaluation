@@ -1,0 +1,4 @@
+There are six regular factors: npfih, ldtn, olhm, vac, rnm, and oelqby. The npfih factor consists of two levels: "zqc" and "szrkc". The ldtn factor consists of two levels: "eqq" and "mcuj". The olhm factor consists of two levels: "zqc" and "szrkc". The vac factor consists of two levels: "eqq" and "mcuj". The rnm factor consists of two levels: "zsrr" and "ebnz". The oelqby factor consists of two levels: "njfk" and "oaiui".
+The rnm factor depends on the olhm and npfih factors and has two levels: "zsrr" and "ebnz". A trial is considered "zsrr" if the olhm factor matches the npfih factor, otherwise, it is considered "ebnz".
+The oelqby factor depends on the vac and ldtn factors and has two levels: "njfk" and "oaiui". If the vac factor matches the ldtn factor, then the trial is considered a "njfk". Otherwise, the trial is considered a "oaiui".
+We crossed the ldtn and the olhm factor.

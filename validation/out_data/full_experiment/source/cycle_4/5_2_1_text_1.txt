@@ -1,0 +1,4 @@
+There are five regular factors: kpdmg, olgh, ipxtj, pdjwng, and yuou. The kpdmg factor consists of two levels: "psclbm" and "lij". The olgh factor consists of two levels: "qru" and "lseg". The ipxtj factor consists of two levels: "psclbm" and "lij". The pdjwng factor consists of two levels: "qru" and "lseg". The yuou factor consists of two levels: "otpq" and "zgqit".
+The uibycy factor depends on the olgh and kpdmg factors and has two levels: "mdp" and "kjvo". A trial is considered "mdp" if the olgh matches the kpdmg, otherwise, it is considered "kjvo".
+The mpxrez factor depends on the pdjwng and yuou factors and has two levels: "ncv" and "xygm". A trial is considered "ncv" if the pdjwng matches the yuou, otherwise, it is considered "xygm".
+We crossed the olgh and the uibycy factor. However, the experiment sequences were generated subject to the constraint that at least 4 trials with the level "ncv" in the mpxrez factor occured in a row.

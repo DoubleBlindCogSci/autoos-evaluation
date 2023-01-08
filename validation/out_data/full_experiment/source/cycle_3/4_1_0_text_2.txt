@@ -1,0 +1,3 @@
+There are five regular factors: updm, zvkc, sxwaf, pcyuwu, and hbo. The updm factor consists of two levels: "etzxb" and "jpfb". The zvkc factor consists of two levels: "nrt" and "rbvvsb". The sxwaf factor consists of two levels: "etzxb" and "jpfb". The pcyuwu factor consists of two levels: "nrt" and "rbvvsb". The hbo factor consists of two levels: "oenvuo" and "jnvo".
+The hbo factor depends on the zvkc and updm factors and has two levels: "oenvuo" and "jnvo". If the zvkc factor matches the updm factor, then the trial is considered "oenvuo". Otherwise, the trial is considered "jnvo".
+We crossed the pcyuwu and the hbo factor.

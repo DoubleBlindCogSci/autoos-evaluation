@@ -1,0 +1,7 @@
+### REGULAR FACTORS
+There are four regular factors: hpocc, yljkz, eppi, and rkfb. The hpocc factor consists of two levels: "xqvh" and "ppja". The yljkz factor consists of two levels: "aua" and "yrdzt". The eppi factor consists of two levels: "xqvh" and "ppja". The rkfb factor consists of two levels: "aua" and "yrdzt".
+### DERIVED FACTORS
+The bft factor depends on the yljkz and eppi factors and has two levels: "sxhbt" and "bzmddf". If the yljkz factor matches the eppi factor, then the trial is considered "sxhbt". Otherwise, the trial is considered "bzmddf".
+### EXPERIMENT
+We crossed the yljkz factor with the bft factor. However, the experiment sequences were generated subject to two constraints. First, we allowed for at least 4 of the same yljkz in a row. Second, we allowed for exactly 2 of the same yljkz in a row.
+### END OF EXPERIMENT DESIGN

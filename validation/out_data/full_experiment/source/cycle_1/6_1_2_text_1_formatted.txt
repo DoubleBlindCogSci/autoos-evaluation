@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are six regular factors: dfqk, ptzx, jyg, gqdbe, xgijm, and zlvm. The dfqk factor consists of two levels: "psdz" and "flwj". The ptzx factor consists of two levels: "xhsut" and "zgap". The jyg factor consists of two levels: "psdz" and "flwj". The gqdbe factor consists of two levels: "xhsut" and "zgap". The xgijm factor consists of two levels: "swu" and "jdvb". The zlvm factor consists of two levels: "fxydov" and "qqc".
+### DERIVED FACTORS
+There is a derived factor called jczjok.
+## jczjok
+The jczjok factor depends on the xgijm and zlvm factors and has two levels: "hsh" and "eik". If the xgijm factor matches the zlvm factor, then the trial is considered a "hsh". Otherwise, the trial is considered a "eik".
+### EXPERIMENT
+We crossed the xgijm and the dfqk factor. However, the experiment sequences were generated subject to the constraint that exactly 3 trials with the level "zgap" in the zlvm factor occured. All experiment sequences contained at least 52 trials.
+### END OF EXPERIMENT DESIGN

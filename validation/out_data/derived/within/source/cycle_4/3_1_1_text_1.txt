@@ -1,0 +1,1 @@
+The fopjp factor depends on the pcg factor and has three levels: "ibta", "bwkw", and "lsi". If the pcg is "dqrn", then the fopjp is "ibta". If the pcg is "eczl", then the fopjp is "bwkw". If the pcg is neither "dqrn" nor "eczl", then the fopjp is "lsi".

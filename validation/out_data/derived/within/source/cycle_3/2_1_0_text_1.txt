@@ -1,0 +1,1 @@
+The yaly factor depends on the edve factor and has two levels: "dbg" and "rjpq". If the edve is not "etus", then the trial is "dbg". Otherwise, the trial is "rjpq".

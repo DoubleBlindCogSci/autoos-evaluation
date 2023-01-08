@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are five regular factors: rdofu, knakml, qnpxs, vwpw, and dyti. The rdofu factor consists of two levels: "pyobz" and "ofkrum". The knakml factor also consists of two levels: "qubuk" and "dok". The qnpxs factor consists of two levels: "pyobz" and "ofkrum". The vwpw factor consists of two levels: "qubuk" and "dok". The dyti factor consists of two levels: "hpcxbk" and "nfp".
+### DERIVED FACTORS
+There are two derived factors: qad and kho.
+## qad
+The qad factor depends on the knakml and dyti factors and has two levels: "iast" and "mlsvfv". A trial is considered "iast" if the knakml matches the dyti, otherwise, it is considered "mlsvfv".
+## kho
+The kho factor depends on the vwpw and rdofu factors and has two levels: "eedltm" and "ived". If the vwpw matches the rdofu, then the trial is considered "eedltm". Otherwise, the trial is considered "ived".
+### EXPERIMENT
+We crossed the kho and the vwpw factor.
+### END OF EXPERIMENT DESIGN

@@ -1,0 +1,24 @@
+from sweetpea import *
+import os
+_dir=os.path.dirname(__file__)
+vrmqfy = Factor("vrmqfy", ["fussar", "jsff"])
+mwxic = Factor("mwxic", ["ovl", "mxwe"])
+whnrth = Factor("whnrth", ["jtprjg", "qux"])
+ghof = Factor("ghof", ["axgbh", "onptzf"])
+talxq = Factor("talxq", ["nwji", "fllj"])
+pif = Factor("pif", ["vnpxo", "jswoy"])
+wuhtbc = Factor("wuhtbc", ["otv", "tay"])
+efum = Factor("efum", ["vnbe", "uqyc"])
+bnmyb = Factor("bnmyb", ["zuxxq", "rxbxbi"])
+hwaio = Factor("hwaio", ["jtybi", "cmlp"])
+constraints = []
+crossing = [[ mwxic, whnrth, ghof],[ efum, bnmyb, hwaio],[ talxq, pif, wuhtbc],[vrmqfy],]
+
+
+design=[vrmqfy,mwxic,whnrth,ghof,talxq,pif,wuhtbc,efum,bnmyb,hwaio]
+### APPENDIX
+block=MultiCrossBlock(design,crossing,[])
+experiment=synthesize_trials(block,1,IterateGen)
+save_experiments_csv(block,experiment,os.path.join(_dir,"out_code_2/4_2"))
+
+### END

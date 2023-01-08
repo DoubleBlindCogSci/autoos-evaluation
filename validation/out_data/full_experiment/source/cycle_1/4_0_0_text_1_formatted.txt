@@ -1,0 +1,5 @@
+### REGULAR FACTORS
+There are four regular factors: hjben, skt, urcbh, and ljh. The hjben factor consists of two levels: "nsfpc" and "hln". The skt factor also consists of two levels: "kmx" and "ddoug". The urcbh factor consists of two levels: "nsfpc" and "hln". The ljh factor also consists of two levels: "kmx" and "ddoug".
+### EXPERIMENT
+We crossed the ljh and the skt factor.
+### END OF EXPERIMENT DESIGN

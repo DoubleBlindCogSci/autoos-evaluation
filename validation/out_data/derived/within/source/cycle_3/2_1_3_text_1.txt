@@ -1,0 +1,1 @@
+The bkns factor depends on the mox factor and has two levels: "mzz" and "ehdomd". If the mox is "ynja", then the bkns is "mzz". Otherwise, the bkns is "ehdomd".

@@ -1,0 +1,1 @@
+The koux factor has two levels: "nct" and "xfgem". It depends on a moving trial window (for the last four trials) defined by the jux factor. If the jux on the previous trial is not "oxp" or the jux on the current trial is not "jvpa", then the trial is considered "nct". Otherwise, the trial is considered "xfgem".

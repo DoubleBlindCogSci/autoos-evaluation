@@ -1,0 +1,24 @@
+_hum:
+se = Factor("se", ["dycmaw","eck","pjs"])
+js = Factor("js", ["kpc","has","nbb","wxky"])
+def jar(se, js):
+    return se[-1] != "pjs" or js[-2] != "has"
+def guy(se,js):
+    return not jar(se, js)
+fra = DerivedLevel("lvl", Window(jar, [se, js],3,1))
+hsir = DerivedLevel("qix", Window(guy, [se, js],3,1))
+ctgwb = Factor("juz", [fra, hsir])
+_gpt3:
+The juz factor depends on a moving trial window (for the last three trials) defined by the se and js factors. It has two levels: "lvl" and "qix". If the se on the previous trial is not "pjs" or the js two trials back is not "has", then the trial is "lvl". Otherwise, the trial is "qix".
+_hum:
+oy = Factor("oy", ["a","p","b","c"])
+def _z(oy):
+    return oy[-3] != "p" or oy[-1] != "a"
+def _a(oy):
+    return not nbz(oy)
+ob = DerivedLevel("r", Window(_z, [oy],4,1))
+la = DerivedLevel("g", Window(_a, [oy],4,1))
+cyh = Factor("zu", [ob, la])
+_gpt3:
+The zu factor depends on a moving trial window (for the last four trials) defined by the oy factor and has two levels: "r" and "g". If the oy three trials back is not "p" or the oy on the previous trial is not "a", then the trial is considered a "r". Otherwise, the trial is considered a "g".
+_hum:

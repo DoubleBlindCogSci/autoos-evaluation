@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are six regular factors: ptxf, fthd, lln, lfcap, tku, and rvpgn. The ptxf factor consists of two levels: "nsmjwr" and "iqbzt". The fthd factor also consists of two levels: "fuezsy" and "ddldqs". The lln factor consists of two levels: "nsmjwr" and "iqbzt". The lfcap factor consists of two levels: "fuezsy" and "ddldqs". The tku factor consists of two levels: "qupefs" and "nbo". The rvpgn factor consists of two levels: "pysk" and "ihgxhj".
+### DERIVED FACTORS
+There is a derived factor called hjkr.
+## hjkr
+The hjkr factor depends on the lfcap and fthd factors and has two levels: "xwex" and "cidq". If the lfcap factor matches the fthd factor, then the trial is considered "xwex". Otherwise, the trial is considered "cidq".
+### EXPERIMENT
+We crossed the fthd and the tku factor.
+### END OF EXPERIMENT DESIGN

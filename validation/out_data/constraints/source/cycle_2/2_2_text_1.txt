@@ -1,0 +1,1 @@
+We crossed the mlenz and the pqzau factor. However, the experiment sequences were generated subject to the constraint that no more than 4 trials with the level "xlbex" in the ybb factor occured in a row. Also, there were always at least 3 trials in a row with the level "zcdpts" in the lhfi factor.

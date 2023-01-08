@@ -1,0 +1,1 @@
+The itd factor depends on the dbco, ftoy, and sfquoi factors and has three levels: "kgusrl", "jtdph", and "akj". If the sfquoi is equal to the dbco, the itd is "kgusrl". If the sfquoi is not equal to the dbco and the dbco is equal to the ftoy, the itd is "jtdph". If the sfquoi is not equal to the dbco and the dbco is not equal to the ftoy, the itd is "akj".

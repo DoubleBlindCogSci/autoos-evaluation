@@ -1,0 +1,1 @@
+The awwa factor depends on the jmhfj, insqbc, and rrf factors and has three levels: "pltfpx", "mkb", and "ppugl". If the jmhfj factor matches the rrf factor, then the trial is "pltfpx". If the jmhfj factor does not match the rrf factor but matches the insqbc factor, then the trial is "mkb". Otherwise, the trial is "ppugl".

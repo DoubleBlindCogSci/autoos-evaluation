@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are six regular factors: aiq, jefa, leophp, vwqn, zovw, and qexm. The aiq factor consists of two levels: "dbjumx" and "woafy". The jefa factor consists of two levels: "qkd" and "zighty". The leophp factor consists of two levels: "dbjumx" and "woafy". The vwqn factor consists of two levels: "qkd" and "zighty". The zovw factor consists of two levels: "qtjexx" and "swxghh". The qexm factor consists of two levels: "ggxeg" and "lbxnp".
+### DERIVED FACTORS
+There is a derived factor called pye.
+## pye
+The pye factor depends on the jefa and leophp factors and has two levels: "bqekyw" and "ygfjnn". A trial is considered "bqekyw" if the jefa factor matches the leophp factor, otherwise, it is considered "ygfjnn".
+### EXPERIMENT
+We crossed the vwqn and the aiq factor.
+### END OF EXPERIMENT DESIGN

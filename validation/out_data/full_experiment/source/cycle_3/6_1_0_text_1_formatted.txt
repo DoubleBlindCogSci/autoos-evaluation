@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are six regular factors: hhf, glbouc, apb, deff, sfg, and hpyuyl. The hhf factor consists of two levels: "aumgo" and "mav". The glbouc factor also consists of two levels: "utchpn" and "cenp". The apb factor consists of two levels: "aumgo" and "mav". The deff factor also consists of two levels: "utchpn" and "cenp". The sfg factor consists of two levels: "cjxkp" and "pwwc". The hpyuyl factor also consists of two levels: "twhkmc" and "meeugm".
+### DERIVED FACTORS
+There is a derived factor called iqne.
+## iqne
+The iqne factor depends on the apb and deff factors and has two levels: "kicuw" and "yhcqux". If the apb factor matches the deff factor, then the trial is considered "kicuw". Otherwise, the trial is considered "yhcqux".
+### EXPERIMENT
+We crossed the iqne and the sfg factor.
+### END OF EXPERIMENT DESIGN

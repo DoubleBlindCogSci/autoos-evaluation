@@ -1,0 +1,127 @@
+_hum:
+color = Factor("color", ["red", "blue"])
+word = Factor("word", ["green", "red"])
+iti = Factor("iti", [200, 300, 500])
+congruency = Factor("congruency", [congruent, incongruent])
+we crossed the color factor with the word factor. however, the experiment sequences were generated subject to the constraint that exactly 9 congruent trials were included. all experiment sequences contained at least 20 trials and were sampled uniformly from the space of all counterbalanced sequences.
+_gpt3:
+constraints = [MinimumTrials(20), ExactlyK(9,(congruency, congruent))]
+crossing = [color, word]
+_hum:
+word = Factor("word", ["hallo", "yellow", "neutral"])
+color = Factor("color", ["abas", "ibas", "ubas", "lolo"])
+task_transition = Factor("task transition", [s, r])
+response_transition = Factor("response tansition", [s, r])
+we crossed the factors color, word, task, task transition, and response transition. however, the experiment sequences were generated subject to two constraints. first, we allowed for no more than 4 of the same task transitions in a row. second, we allowed for no more than 3 of the same response transitions in a row.
+_gpt3:
+constraints = [AtMostKInARow(4, task_transition), AtMostKInARow(3, response_transition)]
+crossing = [color, word, task, task_transition, response transition]
+_hum:
+color = Factor("color", ["green", "blue"])
+letter = Factor("letter", ["a", "b", "c", "z"])
+word = Factor("word", ["green", "blue"])
+target = Factor("target", ["yes"])
+we counterbalanced the letter factor with the target factor.
+_gpt3:
+constraints = []
+crossing = [letter, target]
+_hum:
+word = Factor("word", ["yellow", "purple"])
+color = Factor("color", ["yellow", "purple"])
+number = Factor("number", [3, 7, 5])
+congruency = Factor("congruency", [congruent, incongruent])
+number_transition = Factor("number transition", [increase, decrease, unchanged])
+we counterbalanced the factors number, color, and word. however, the experiment sequences were generated subject to two constraints. first, we excluded all trials in which the number transition was unchanged. second, we allowed for no more than three trials with the same number in a row. all experiment sequences contained at least twelve trials and were sampled uniformly from the space of all counterbalanced sequences.
+_gpt3:
+constraints = [MinimumTrials(12), Exclude(number_transition, "unchanged"), AtMostKInARow (3, number)]
+crossing = [number, color, word]
+_hum:
+shape = Factor("shape", [1,"oval", "r"])
+motion = Factor("motion", [1, occre, abla, down])
+number = Factor("number", [one, two, three])
+we counterbalanced the factors motion, shape, and number. however, we excluded all trials in which the motion was down. all experiment sequences contained at least 100 trials.
+_gpt3:
+constraints = [Exclude((motion, "down")), MinimumTrials(100)]
+crossing = [motion, shape, number]
+_hum:
+labi = Factor("labi", ["dibi", "dubi", "dabi", "du"])
+lubi = Factor("lubi", ["dibi", "dubi", "a", "b"])
+congruency = Factor("congruency", ["c", "i"])
+response_transition = Factor("response transition", ["asr", "zdsa"])
+we counterbalanced the experiment sequence with respect to the factor congruency. the experiment sequences were generated subject to the constraint that no more than 7 of the response transition with the level "asr" could occur in a row.
+_gpt3:
+constraints = [AtMostKInARow (7, (response_transition, "asr"))]
+crossing = [congruency]
+_hum:
+re = Factor("re", ["color", "word", "location"])
+word = Factor("word", ["word", "location"])
+color = Factor("color", ["word", congruent])
+location = Factor("location", [color, "word"])
+congruency = Factor("congruency", ["olor", congruent])
+we counterbalanced the color factor with the word factor and the location factor. however, the experiment sequences were generated subject to the constraint that no congruent trials were included. all experiment sequences contained at least 20 trials and were sampled uniformly from the space of all counterbalanced sequences.
+_gpt3:
+constraints = [MinimumTrials(20), Exclude((congruency, "congruent"))]
+crossing = [color, word, location]
+_hum:
+ahp = Factor("ahp", [1,"oval", "r"])
+mabu = Factor("mabu", [1, occre, abla, down])
+libidu = Factor("libidu", ["one", "two", "three"])
+we counterbalanced the factors ahp, and libidu seperatly and we crossed mubu with ahp. however, we excluded all trials in which libidu was not "one" or "three". all experiment sequences contained at least 37 trials
+_gpt3:
+constraints = [Exclude(libidu, "two"), MinimumTrials(37)]
+crossing = [[ahp], [libid], [mubu, ahp]]
+_hum:
+lobo = Factor("lobo", ["ishi", "ashi"])
+ur = Factor("ur", ["a", "b", "c", "z"])
+wibidu = Factor("wibidu", ["orbo", "ashi"])
+taratulla = Factor("taratulla", ["yes", "japjap"])
+We crossed the taratulla factor with the ur and wibidu factor. Individually we counterbalanded the wibidu factor with the lobo factor There was a constraint that at least two wibidu factors of the same level had to follow each other.
+_gpt3:
+constraints = [AtLeastKInARow(2, wibidu)]
+crossing = [[taratulla, ur, wibidu], [wibidu, lobo]]
+_hum:
+wat = Factor("wat", [2, 8])
+wubi = Factor("wubi", ["ah", "oh"])
+lick = Factor("lick", [3, 7, 5])
+carab = Factor("carab", [orpho, urda])
+libi_dibi = Factor("libi dibi", [in, da, do])
+we counterbalanced the factors wat and lick seperatly. We also crossed wubi with carab and wat, lick und libi dibi. however, the experiment sequences were generated subject to two constraints. first, we excluded all trials in which libi dibi was in. second, we allowed for no more than three trials in a row with the level 7 in lick. all experiment sequences contained at least twelve trials and were sampled uniformly from the space of all counterbalanced sequences.
+_gpt3:
+constraints = [MinimumTrials(12), Exclude((libi_dibi, "in")), AtMostKInARow (3, (lick, 7))]
+crossing = [[wat], [lick], [wubi, carab, wat], [lick, libi]]
+_hum:
+rowi = Factor("rowi", [2, 4, 8, 12])
+ribi = Factor("ribi", [aba, uba, iba, eba])
+rili_dili = Factor("rili dili", ["hicks", "hacks"])
+hemhem = Factor("hemhem", [robo, bobo, boro])
+We crossed the rowi factor with the hemhem factor. We also crossed the ribi factor and the hemhem factor seperatly. all experiment sequences contained at least 967 trials.
+_gpt3:
+constraints = [MinimumTrials(967)]
+crossing = [[rowi, hemem], [ribi], [hemhem]]
+_hum:
+jo_hin = Factor("jo hin", [DerivedLevel("jip", within_trial(is_jo_hin_jip, [haol, him])), DerivedLevel("ja", within_trial(is_jo_hin_ja,[haol, him])), DerivedLevel("qwe we", within_trial(is_jo_hin_qwe_we, [haol, him]))])
+labi = Factor("labi", [1, 2, 3, 4])
+mano_ci_qu = Factor("mano ci qu", ["mano", "ci", "qu"])
+adfs = Factor("adfs", [DerivedLevel("fa", Transition(is_adfs_fa, [hemhem])), DerivedLevel("fu", Transition(is_adfs_fu, [hemhem]))])
+all experiment sequences contained at least 73 trials. the experiment crossed the adfs factor with the labi factor and the mano ci qu factor. the experiment also counterbalanced the labi factor and the jo hin factor individually.
+_gpt3:
+constraints = [MinimumTrials(73)]
+crossing = [[adfs, labi, mano_ci_qu], [labi], [jo_hin]]
+_hum:
+shape = Factor("shape", [1,"oval", "r"])
+motion = Factor("motion", [1, occre, abla, down])
+number = Factor("number", [one, two, three])
+we crossed the factors motion, shape, and number. however, there were always at least 11 trials in a row with the level 1 in the motion factor. all experiment sequences contained at least 82 trials.
+_gpt3:
+constraints = [AtLeastKInARow(11,(motion, "down")), MinimumTrials(82)]
+crossing = [motion, shape, number]
+_hum:
+color = Factor("color", ["green", "blue"])
+letter = Factor("letter", ["a", "b", "c", "z"])
+word = Factor("word", ["green", "blue"])
+target = Factor("target", ["yes"])
+we crossed the letter factor with the target factor.
+_gpt3:
+constraints = []
+crossing = [letter, target]
+_hum:

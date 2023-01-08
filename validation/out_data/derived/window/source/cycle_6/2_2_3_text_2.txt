@@ -1,0 +1,1 @@
+The cczo factor depends on a moving trial window (for the last two trials) defined by the rfywt and ofxt factors and has two levels: "ayn" and "dfomek". If the rfywt on the current trial is "udo" or the ofxt on the previous trial is not "rxqy", then the trial is considered a "ayn". Otherwise, the trial is considered a "dfomek".

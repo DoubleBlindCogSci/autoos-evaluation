@@ -1,0 +1,4 @@
+There are four regular factors: oxt, jvg, moskvk, and ijmr. The oxt factor consists of two levels: "sivho" and "cqbgic". The jvg factor also consists of two levels: "ohs" and "wpyrc". The moskvk factor consists of two levels: "sivho" and "cqbgic". The ijmr factor also consists of two levels: "ohs" and "wpyrc".
+The knmejn factor depends on the ijmr and moskvk factors and has two levels: "dhmqoa" and "tgtul". A trial is considered "dhmqoa" if the ijmr matches the moskvk, otherwise, it is considered "tgtul".
+The imxuu factor depends on the oxt and jvg factors and has two levels: "ajirpt" and "nozlj". If the oxt factor matches the jvg factor, then the trial is considered "ajirpt". Otherwise, the trial is considered "nozlj".
+We crossed the moskvk and the oxt factor. However, the experiment sequences were generated subject to the constraint that no more than 2 of the same oxt transitions could occur in a row.

@@ -1,0 +1,1 @@
+The mvsa factor depends on the ush, roxpg, and rpnreo factors and has three levels: "znieko", "oyeh", and "fhn". If the roxpg is equal to the ush, then the trial is "znieko". If the roxpg is not equal to the ush and the rpnreo is equal to the ush, then the trial is "oyeh". If the roxpg is not equal to the ush and the rpnreo is not equal to the ush, then the trial is "fhn".

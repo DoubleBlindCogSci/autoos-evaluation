@@ -1,0 +1,1 @@
+The bzrh factor depends on a moving trial window (for the last three trials) defined by the zdak factor and has two levels: "oixwnd" and "kwdpox". If the zdak two trials back is "xxp" or the zdak on the current trial is not "ggre", then the trial is considered a "oixwnd". Otherwise, the trial is considered a "kwdpox".

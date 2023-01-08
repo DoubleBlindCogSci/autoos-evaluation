@@ -1,0 +1,1 @@
+The lwd factor depends on a moving trial window (for the last three trials) defined by the mqt factor and has two levels: "uvkig" and "hxxhr". If the mqt on the previous trial is not "vfd" or the mqt two trials back is "gmbm", then the trial is considered a "uvkig". Otherwise, the trial is considered a "hxxhr".

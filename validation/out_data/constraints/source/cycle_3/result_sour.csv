@@ -1,0 +1,13 @@
+p(code_1),p(code_2),constraints(code_1),constraints(code_2),nr_constraints
+1.0,1.0,[True],[True],1
+1.0,1.0,"[True, True]","[True, True]",2
+1.0,1.0,"[True, True, True]","[True, True, True]",3
+1.0,1.0,[True],[True],1
+1.0,1.0,"[True, True]","[True, True]",2
+1.0,1.0,[True],[True],1
+1.0,1.0,"[True, True]","[True, True]",2
+1.0,1.0,[True],[True],1
+1.0,1.0,"[True, True]","[True, True]",2
+1.0,1.0,[True],[True],1
+0.9555630362682842,0.9555630362682842,"[True, True]","[True, True]",2
+1.0,1.0,"[True, True, True]","[True, True, True]",3

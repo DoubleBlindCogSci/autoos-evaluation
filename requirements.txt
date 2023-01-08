@@ -1,0 +1,7 @@
+openai
+load-dotenv
+python-dotenv
+sweetpea
+sourpea
+pandas
+scipy

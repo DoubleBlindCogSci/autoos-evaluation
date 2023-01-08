@@ -1,0 +1,4 @@
+There are six regular factors: uirvdf, skcfby, imowog, lwou, sws, and wfhvd. The uirvdf factor consists of two levels: "ljjzo" and "vmds". The skcfby factor consists of two levels: "bwls" and "jbj". The imowog factor consists of two levels: "ljjzo" and "vmds". The lwou factor consists of two levels: "bwls" and "jbj". The sws factor consists of two levels: "pewpg" and "jniby". The wfhvd factor consists of two levels: "pmjf" and "xrzjqz".
+The fdp factor depends on the imowog and wfhvd factors and has two levels: "rufmz" and "ssrvcv". A trial is considered "rufmz" if the imowog matches the wfhvd, otherwise, it is considered "ssrvcv".
+The xwpnof factor depends on the regular factors skcfby and uirvdf and has two levels: "wqvxe" and "zbc". A trial is considered "wqvxe" if the skcfby matches the uirvdf, otherwise, it is considered "zbc".
+We crossed the wfhvd and the sws factor.

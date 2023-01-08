@@ -1,0 +1,5 @@
+### REGULAR FACTORS
+There are six regular factors: dgizf, imjtfj, amui, paanhe, uirzmz, and qhpc. The dgizf factor consists of two levels: "omekh" and "jkt". The imjtfj factor also consists of two levels: "gkhdp" and "fyjb". The amui factor consists of two levels: "omekh" and "jkt". The paanhe factor also consists of two levels: "gkhdp" and "fyjb". The uirzmz factor consists of two levels: "tdo" and "gwtex". The qhpc factor also consists of two levels: "esaypj" and "bps".
+### EXPERIMENT
+We crossed the dgizf and the qhpc factor. However, the experiment sequences were generated subject to the constraint that at least 4 trials in a row with the level "esaypj" in the uirzmz factor occured.
+### END OF EXPERIMENT DESIGN

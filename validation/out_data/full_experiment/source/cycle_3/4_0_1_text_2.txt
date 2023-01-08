@@ -1,0 +1,2 @@
+There are four regular factors: bvtai, lembv, tfo, and jerk. The bvtai factor consists of two levels: "pvuel" and "slfm". The lembv factor consists of two levels: "wfibz" and "tryd". The tfo factor consists of two levels: "pvuel" and "slfm". The jerk factor consists of two levels: "wfibz" and "tryd". The bvtai and tfo factors are crossed. The minimum number of trials is 58.
+We crossed the tfo and the bvtai factor. All experiment sequences contained at least 58 trials.

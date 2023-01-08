@@ -1,0 +1,1 @@
+The jwikgn factor depends on the utnvl factor and has two levels: "lrhnd" and "rcpw". If the utnvl is "bfs", then the jwikgn is "lrhnd". Otherwise, the jwikgn is "rcpw".

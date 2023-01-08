@@ -1,0 +1,3 @@
+There are six regular factors: kxk, oqba, voo, wtq, isf, and vceeea. The kxk factor consists of two levels: "nllpb" and "nhg". The oqba factor consists of two levels: "bdalt" and "xjsf". The voo factor consists of two levels: "nllpb" and "nhg". The wtq factor consists of two levels: "bdalt" and "xjsf". The isf factor consists of two levels: "lavu" and "tqntet". The vceeea factor consists of two levels: "rpds" and "rth".
+The vceeea factor depends on the voo and oqba factors and has two levels: "rpds" and "rth". If the voo factor matches the oqba factor, then the trial is "rpds". Otherwise, the trial is "rth".
+We crossed the kxk and the voo factor.

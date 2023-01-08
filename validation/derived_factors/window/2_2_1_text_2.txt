@@ -1,0 +1,1 @@
+The eihb factor depends on a moving trial window (for the last two trials) defined by the zpik, hzeny, and hajvj factors. It has two levels: "txc" and "zkbc". If the zpik on the previous trial matches the hajvj on the current trial, then the trial is considered a "txc". Otherwise, the trial is considered a "zkbc".

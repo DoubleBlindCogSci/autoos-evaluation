@@ -1,0 +1,2 @@
+There are four regular factors: xti, nzuufr, bxk, and gokv. The xti factor consists of two levels: "hdlc" and "nodrfn". The nzuufr factor also consists of two levels: "bev" and "vbequ". The bxk factor consists of two levels: "hdlc" and "nodrfn". The gokv factor also consists of two levels: "bev" and "vbequ".
+We crossed the gokv and the nzuufr factor. However, the experiment sequences were generated subject to the constraint that no more than 2 of the same nzuufr transitions could occur in a row.

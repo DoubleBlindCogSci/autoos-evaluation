@@ -1,0 +1,1 @@
+The jobcfs factor depends on the guh factor and has three levels: "rdl", "grs", and "vujbce". If the guh is "rio", then the corresponding jobcfs is "rdl". If the guh is "nfnij", then the corresponding jobcfs is "grs". If the guh is neither "rio" nor "nfnij", then the corresponding jobcfs is "vujbce".

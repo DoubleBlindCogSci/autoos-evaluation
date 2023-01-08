@@ -1,0 +1,1 @@
+The cpgwf factor depends on the flf factor and has three levels: "hne", "naof", and "hanqhq". If the flf is "igbcrl", then the cpgwf is "hne". If the flf is "hwlruj", then the cpgwf is "naof". Otherwise, the cpgwf is "hanqhq".

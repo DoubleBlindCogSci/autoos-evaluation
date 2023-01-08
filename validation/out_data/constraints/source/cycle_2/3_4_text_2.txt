@@ -1,0 +1,1 @@
+We counterbalanced the eptgp factor individually. However, the experiment sequences were generated subject to three constraints. First, we excluded all trials in which the apzs was "gooen". Second, we allowed for at least 4 trials in a row with the level "kpgbi" in the rzcr factor. Third, we allowed for at most 2 trials in a row with the level "jcfdy" in the cfycbu factor.

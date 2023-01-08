@@ -1,0 +1,1 @@
+The fuvcg factor depends on the lovf, rnik, and prpbhg factors and has two levels: "ldor" and "rue". If the lovf factor matches the rnik factor, then the trial is "ldor". Otherwise, the trial is "rue".

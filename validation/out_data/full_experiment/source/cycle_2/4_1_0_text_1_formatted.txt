@@ -1,0 +1,7 @@
+### REGULAR FACTORS
+There are four regular factors: wbr, wlw, pcnmlg, and tow. The wbr factor consists of two levels: "ntmsnw" and "fouy". The wlw factor also consists of two levels: "ycpahd" and "eydki". The pcnmlg factor consists of two levels: "ntmsnw" and "fouy". The tow factor consists of two levels: "ycpahd" and "eydki".
+### DERIVED FACTORS
+The srcywn factor depends on the wlw and tow factors and has two levels: "icthpl" and "txdzmf". If the wlw matches the tow, then the trial is "icthpl". Otherwise, the trial is "txdzmf".
+### EXPERIMENT
+We crossed the wbr and the wlw factor.
+### END OF EXPERIMENT DESIGN

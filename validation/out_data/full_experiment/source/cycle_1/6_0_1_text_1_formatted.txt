@@ -1,0 +1,5 @@
+### REGULAR FACTORS
+There are six regular factors: lvylg, qlzbh, dcoqy, zvfx, vord, and lnvgik. The lvylg factor consists of two levels: "atheg" and "irduf". The qlzbh factor consists of two levels: "jstxk" and "tlmmco". The dcoqy factor consists of two levels: "atheg" and "irduf". The zvfx factor consists of two levels: "jstxk" and "tlmmco". The vord factor consists of two levels: "qomtek" and "lniqwx". The lnvgik factor consists of two levels: "cbal" and "itukx".
+### EXPERIMENT
+We crossed the dcoqy and the lvylg factor. However, the experiment sequences were generated subject to the constraint that at least 3 trials with the level "atheg" in the lvylg factor occured in a row.
+### END OF EXPERIMENT DESIGN

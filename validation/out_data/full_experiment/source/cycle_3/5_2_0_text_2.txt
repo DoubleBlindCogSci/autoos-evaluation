@@ -1,0 +1,4 @@
+There are seven regular factors: byds, zqhjpa, ppktzu, bwci, rxukub, cznezw, and gabz. The byds factor consists of two levels: "wnsa" and "pbvws". The zqhjpa factor consists of two levels: "auo" and "ikosc". The ppktzu factor consists of two levels: "wnsa" and "pbvws". The bwci factor consists of two levels: "auo" and "ikosc". The rxukub factor consists of two levels: "txxm" and "yojoxb". The cznezw factor consists of two levels: "fzjgi" and "qpqg". The gabz factor consists of two levels: "grwuc" and "tysmu".
+The cznezw factor depends on the bwci and rxukub factors and has two levels: "fzjgi" and "qpqg". A trial is considered "fzjgi" if the bwci factor matches the rxukub factor, otherwise, it is considered "qpqg".
+The gabz factor depends on the byds and zqhjpa factors and has two levels: "grwuc" and "tysmu". A trial is considered "grwuc" if the byds matches the zqhjpa, otherwise, it is considered "tysmu".
+We crossed the byds and the ppktzu factor.

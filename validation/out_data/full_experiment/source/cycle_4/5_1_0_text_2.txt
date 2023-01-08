@@ -1,0 +1,3 @@
+There are six regular factors: emmn, qoz, upqhqx, gvpmo, hdjam, and qus. The emmn factor consists of two levels: "zfeun" and "ulfa". The qoz factor consists of two levels: "zoe" and "qdaza". The upqhqx factor consists of two levels: "zfeun" and "ulfa". The gvpmo factor consists of two levels: "zoe" and "qdaza". The hdjam factor consists of two levels: "uhe" and "oulgv". The qus factor consists of two levels: "mwsa" and "oocxp".
+The qus factor depends on the gvpmo and qoz factors and has two levels: "mwsa" and "oocxp". A trial is considered "mwsa" if the gvpmo matches the qoz, otherwise, it is considered "oocxp".
+We crossed the qoz and the hdjam factor.

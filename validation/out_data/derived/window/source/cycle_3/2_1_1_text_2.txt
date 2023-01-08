@@ -1,0 +1,1 @@
+The hrl factor depends on a moving trial window (for the last two trials) defined by the ttak factor and has two levels: "pavhzi" and "typxqe". If the ttak on the current trial is not "klvnuk" and the ttak on the previous trial is "xeqi", then the trial is considered a "pavhzi". Otherwise, the trial is considered a "typxqe".

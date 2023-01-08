@@ -1,0 +1,1 @@
+The zgmb factor depends on the tlahu and cmjg factors and has three levels: "punz", "ufp", and "hzs". If the tlahu is "juvf", then the trial is "punz". If the tlahu is not "juvf" and the cmjg is "nppzc", then the trial is "ufp". Otherwise, the trial is "hzs".

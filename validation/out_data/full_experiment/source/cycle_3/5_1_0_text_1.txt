@@ -1,0 +1,3 @@
+There are five regular factors: dnuay, khuiq, yqs, mtarj, and mhibz. The dnuay factor consists of two levels: "mrja" and "aoeg". The khuiq factor consists of two levels: "mvda" and "jfwow". The yqs factor consists of two levels: "mrja" and "aoeg". The mtarj factor consists of two levels: "mvda" and "jfwow". The mhibz factor consists of two levels: "eroq" and "irtmb".
+The cbgvt factor depends on the mhibz and khuiq factors and has two levels: "nxfjfi" and "dge". If the mhibz matches the khuiq, then the trial is "nxfjfi". Otherwise, the trial is "dge".
+We crossed the dnuay and the yqs factor.

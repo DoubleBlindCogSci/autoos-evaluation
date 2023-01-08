@@ -1,0 +1,1 @@
+The sqln factor depends on a moving trial window (for the last three trials) defined by the kujc factor and has two levels: "nbuuf" and "ladll". If the kujc two trials back is "rwbp" or the kujc on the previous trial is not "lkizvu", then the trial is considered a "nbuuf". Otherwise, the trial is considered a "ladll".

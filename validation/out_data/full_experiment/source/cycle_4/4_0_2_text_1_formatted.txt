@@ -1,0 +1,5 @@
+### REGULAR FACTORS
+There are four regular factors: vbuipz, ilcgi, ggw, and dolfc. The vbuipz factor consists of two levels: "wkzx" and "iuoqy". The ilcgi factor also consists of two levels: "vkdwcr" and "klerfi". The ggw factor consists of two levels: "wkzx" and "iuoqy". The dolfc factor also consists of two levels: "vkdwcr" and "klerfi".
+### EXPERIMENT
+We crossed the ggw and the vbuipz factor. However, the experiment sequences were generated subject to the constraint that no more than 2 of the same ggw transitions could occur in a row. All experiment sequences contained at least 46 trials.
+### END OF EXPERIMENT DESIGN

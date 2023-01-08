@@ -1,0 +1,1 @@
+The xlqpo factor depends on the leyw, luzdp, and bqup factors and has two levels: "abfhmd" and "xfaret". It depends on a moving trial window (for the last three trials) defined by the leyw, luzdp, and bqup factors. If the leyw two trials back matches the bqup one trial back, then the trial is considered "abfhmd". Otherwise, the trial is considered "xfaret".

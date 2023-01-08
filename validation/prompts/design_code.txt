@@ -1,0 +1,419 @@
+_hum:
+num = Factor("number",  range(0,20))
+up_lvl = Level("up")
+down_lvl = Level("down")
+mot = Factor("motion",  [up_lvl, down_lvl])
+shp = Factor("shape", ["circle", "square", "triangle"])
+large_level = DerivedLevel("large", WithinTrial(is_larg_10, [num]))
+small_level = DerivedLevel("small", WithinTrial(is_small_eq_10, [num]))
+mag_factor = Factor("magnitude", [
+    large_level,
+    small_level
+])
+exclusion = Exclude((mot, down_lvl))
+eliminate = [
+    exclusion,
+    MinimumTrials(100)]
+all_factors = [num, mot, shp]
+block = MultiCrossBlock(design=all_factors, crossings=[[mot], [shp,mot], [num]], constraints=eliminate)
+_gpt3:
+We counterbalanced the factors motion and number indiviaually. We also crossed the factors shape and motion. However, we excluded all trials in which the motion was down. All experiment sequences contained at least 100 trials.
+_hum:
+col = Factor("color",  ["red", "green", "blue", "brown"])
+wrd = Factor("word", ["red", "green", "blue", "brown"])
+congr = DerivedLevel("congruent", WithinTrial(is_cn, [col, wrd]))
+incongr = DerivedLevel("incongruent", WithinTrial(is_inc, [col, wrd]))
+congruency = Factor("congruency", [
+    congr,
+    incongr
+])
+trial_constraint = MinimumTrials(20)
+exclusion_constraint = Exclude((congruency, "congruent"))
+nuppo = [trial_constraint, exclusion_constraint]
+experi = [col, wrd, congruency]
+block = CrossBlock(experi, [col, wrd], nuppo, False)
+experiments  = synthesize_trials(block, 1)
+_gpt3:
+We counterbalanced the color factor with the word factor. However, the experiment sequences were generated subject to the constraint that no congruent trials were included. All experiment sequences contained at least 20 trials and were sampled uniformly from the space of all counterbalanced sequences.
+_hum:
+col = Factor("color", ["red", "green"])
+wrd = Factor("word", ["red", "green"])
+tsk = Factor("task", ["color naming", "word reading"])
+response_transition = Factor("response transition", [
+    DerivedLevel("repetition",
+                 Transition(is_response_repeat, [response])),
+    DerivedLevel("switch",
+                 Transition(is_response_switch, [response]))
+])
+task_transition = Factor("task transition", [
+    DerivedLevel("repetition",
+                 Transition(is_tk_reption, [tsk])),
+    DerivedLevel("switch",
+                 Transition(is_tk_swch, [tsk]))
+])
+constraints = [
+    AtMostKInARow(4, task_transition),
+    AtMostKInARow(4, response_transition)]
+block = CrossBlock(design=[col, wrd, tsk, cong, resp, task_transition, response_transition], crossing=[col, wrd, tsk, task_transition, response_transition], constraints=constraints)
+_gpt3:
+We counterbalanced the factors color, word, task, task transition, and response transition. However, the experiment sequences were generated subject to two constraints. First, we allowed for no more than 4 of the same task transitions in a row. Second, we allowed for no more than 4 of the same response transitions in a row.
+_hum:
+all_letters = ["A", "B", "C", "D", "E", "F"]
+char = Factor("letter",  all_letters)
+tar = Factor("target", [
+    DerivedLevel("yes", Window(is_target, [char], 3, 1)),
+    DerivedLevel("no",  Window(is_no_target, [char], 3, 1))
+])
+letter = Factor("lure", ["is lure", "is not lure"])
+block = CrossBlock([char, tar, letter], [char, tar], [])
+_gpt3:
+We crossed the letter factor with the target and the lure factor.
+_hum:
+col = Factor("color",  ["red", "green", "blue", "brown"])
+wrd = Factor("word", ["red", "green", "blue", "brown"])
+response = Factor("response", ["left", "right"])
+congr = DerivedLevel("congruent", WithinTrial(is_cuent, [color, word]))
+incongr = DerivedLevel("incongruent", WithinTrial(is_iuent, [color, word]))
+congruency = Factor("congruency", [
+    congr,
+    incongr
+])
+trial_constraint = MinimumTrials(20)
+exclusion_constraint = Exclude((congruency, congr))
+nuppo = [trial_constraint, exclusion_constraint]
+experi  = [[col, wrd], [wrd, response], [col,congr], [col congr, response]]
+block = MultiCrossBlock(design=[col, wrd, response, congruency], constraints=nuppo, crossings=experi)
+_gpt3:
+The color factor was crossed with the word factor, the word factor was crossed with the response factor, the color factor was crossed with te congruency factor and the color, congruency and response factor were croessed with each other. However, the experiment sequences were generated subject to the constraint that no congruent trials were included. All experiment sequences contained at least 20 trials and were sampled uniformly from the space of all counterbalanced sequences.
+_hum:
+all_letters = ["A", "B", "C", "D", "E", "F"]
+target = Factor("lure", [1, 0])
+char = Factor("letter",  all_letters)
+tar = Factor("target", [
+    DerivedLevel("yes", Window(is_target, [char], 3, 1)),
+    DerivedLevel("no",  Window(is_no_target, [char], 3, 1))
+])
+design       = [[char, tar], [lure]]
+crossing     = [char, tar]
+block        = MultiCrossBlock(design=crossing,constraints=[],crossings=design)
+_gpt3:
+The letter factor was crossed with the target factor while the lure factor was counterbalanced individually.
+_hum:
+target = Factor("number", ['1', '2', '3', '4', '5'])
+color = Factor("Color",  ["red", "green"])
+word = Factor("Word", ["red", "green"])
+task = Factor("Task", ["color naming", "word reading"])
+incr = DerivedLevel("incr", Transition(is_lrg, [target]))
+same = DerivedLevel("unch", Transition(is_eq, [target]))
+decr = DerivedLevel("decr", Transition(is_sml, [target]))
+numtransfac = Factor("number transition", [
+    incr,
+    same,
+    decr
+])
+trial_constraint = MinimumTrials(12)
+exclusion_constraint = Exclude(numtransfac, same)
+seq_constraint = AtMostKInARow(3, (target, "1"))
+constr = [
+   exclusion_constraint,
+    trial_constraint,
+    seq_constraint]
+design       = [target, color, word, task, numtransfac]
+balance     = [target, color, word]
+block        = CrossBlock(design=design, constraints=constr,crossing=balance)
+experiments  = synthesize_trials(block, 1)
+_gpt3:
+We crossed the factors number, Color, and Word. However, the experiment sequences were generated subject to two constraints. First, we excluded all trials in which the number transition was "unch". Second, we allowed for no more than three trials in a row with the level "1" in the number factor. All experiment sequences contained at least twelve trials and were sampled uniformly from the space of all counterbalanced sequences.
+_hum:
+num      = Factor("number",  range(0,20))
+up_lvl = Level("up")
+down_lvl = Level("down")
+mot      = Factor("motion",  [up_lvl, down_lvl])
+shp       = Factor("shape", ["circle", "square", "triangle"])
+large_level = derived_level("large", WithinTrial(is_larg_10, [num]))
+small_level = derived_level("small", WithinTrial(is_small_eq_10, [num]))
+mag_factor = Factor("magnitude", [
+    large_level,
+    small_level
+])
+exclusion = Exclude((mot, "down"))
+eliminate = [
+    exclusion,
+    MinimumTrials(100)]
+all_factors = [num, mot, shp]
+crossing = [mot, shp, num]
+block = CrossBlock(constraints=eliminate,crossing=crossing,design=all_factors)
+_gpt3:
+We crossed the factors motion, shape, and number. However, we excluded all trials in which the motion was "down". All experiment sequences contained at least 100 trials.
+_hum:
+col = Factor("color",  ["red", "green", "blue", "brown"])
+wrd = Factor("word", ["red", "green", "blue", "brown"])
+congr = DerivedLevel("congruent", WithinTrial(is_cng, [color, word]))
+incongr = DerivedLevel("incongruent", WithinTrial(is_icng, [color, word]))
+congruency = Factor("congruency", [
+    congr,
+    incongr
+])
+trial_constraint = MinimumTrials(20)
+exclusion_constraint = AtLeastKInARow(4, (congruency, congr))
+nuppo = [trial_constraint, exclusion_constraint]
+experi = [col, wrd, response, congruency]
+cro = [[col, wrd], [col],[congr], [wrd, congr]]
+block = MultiCrossBlock(experi, cro, nuppo)
+experiments = synthesize_trials(block, 1)
+_gpt3:
+The color and word factor were crossed. Also the word factor was crossed with the congruency factor. The color and the congruency were counterbalanced individually. However, the experiment sequences were generated subject to the constraint that at least 4 "congruent" trials were in a row. All experiment sequences contained at least 20 trials.
+_hum:
+color      = Factor("color",  ["red", "blue", "green", "brown"])
+word       = Factor("motion", ["red", "blue", "green", "brown"])
+conLevel1 = DerivedLevel("con1", WithinTrial(congr,   [color, word]))
+conLevel2 = DerivedLevel("con2", WithinTrial(congr,   [color, word]))
+conLevel3 = DerivedLevel("con3", WithinTrial(congr,   [color, word]))
+incLevel = DerivedLevel("inc", WithinTrial(incongr,   [color, word]))
+congruency = Factor("congruency", [
+    conLevel1,
+    conLevel2,
+    conLevel3,
+    incLevel
+])
+response = Factor("response", [
+    DerivedLevel("up", WithinTrial(resp_up,   [color])),
+    DerivedLevel("down", WithinTrial(resp_down,   [color])),
+    DerivedLevel("left", WithinTrial(resp_left,   [color])),
+    DerivedLevel("right", WithinTrial(resp_right,   [color])),
+])
+resp_transition = Factor("response_transition", [
+    DerivedLevel("repeat", Transition(resp_repeat, [response])),
+    DerivedLevel("switch", Transition(resp_switch, [response]))
+])
+k = 7
+constraints = [AtMostKInARow(k, resp_transition)]
+design       = [color, word, congruency, resp_transition, response]
+crossing     = [congruency]
+block        = CrossBlock(design, crossing, constraints)
+_gpt3:
+We counterbalanced the congruency factor. The experiment sequences were generated subject to the constraint that no more than 7 of the same response transitions could occur in a row.
+_hum:
+color = Factor("color",  ["red", "green", "blue", "brown"])
+word = Factor("word", ["red", "green", "blue", "brown"])
+location       = Factor("location", ["up", "down", "left", "right"])
+rso = Factor("response", [
+    derived_level("left", WithinTrial(is_rsp_lt, [color])),
+    derived_level("right", WithinTrial(is_rsp_rit, [color])),
+    derived_level("up", WithinTrial(is_rsp_up, [color])),
+    derived_level("down", WithinTrial(is_rsp_down, [color]))
+])
+congruent = derived_level("congruent", WithinTrial(is_congruent, [color, word]))
+incongruent = derived_level("incongruent", WithinTrial(is_incongruent, [color, word]))
+congruency = Factor("congruency", [
+    congruent,
+    incongruent
+])
+constraints = [MinimumTrials(20), ExactlyK(3, (congruency, congruent)), ExactlyKInARow(5, ("response", "left"))]
+block        = CrossBlock([color, word, rso, congruency, location], [color, word, location], constraints)
+experiments  = synthesize_trials(block, 1)
+_gpt3:
+We crossed the color factor with the word and the location factor. However, the experiment sequences were generated subject to the constraint that exactly three congruent trials were included. Also there were always exactly five "left" responses in arow. All experiment sequences contained at least 20 trials.
+_hum:
+ajab = Factor("ajab",  ["hajabur", "jixit"])
+tatib = Factor("lab", [
+    derived_level("ji", Window(is_target, [char], 3, 1), 7),
+    derived_level("ju",  Window(is_no_target, [char], 3, 1), 1)
+])
+hajabur = Factor("ji", ["is lure", "is not lure"])
+design       = [ajab, tabib, hajabur]
+crossing     = [[hajabur], [ajab], [tatib, hajabur]]
+block        = MultiCrossBlock(design, crossing, [])
+experiments  = synthesize_trials(block, 1)
+_gpt3:
+We counterbalanced the ji factor and the ajab factor individually. We also crossed the lab factor with the hajbur factor.
+_hum:
+querzl = Factor("lobi", ["knobi","knabi"])
+lich = Factor("kir", ["znklds","lkfdsa","jfasl","fdl"])
+js = Factor("dsaf", ["afds","fsa",1,2,3,"239"])
+design = [lich, js, querzl]
+block        = MultiCrossBlock(design=design, crossings=[[querzl, lich], [js, querzl], [lich], [js], [lich, js]], constraints=[])
+experiments  = synthesize_trials(block, 1)
+_gpt3:
+We crossed the lobi factor with the kir factor and we crossed the dsaf factor with the lobi factor. The kir factor and the dsaf factor were counterbalanced individually. Also we crossed the kir factor with the dsaf factor.
+_hum:
+narli = Factor("nohob",  range(0,20))
+amal = Factor("ibidu",  ["up_lvl", "down_lvl"])
+shp = Factor("shape", ["circle", "square", "triangle"])
+mag_factor = Factor("magnitude", [
+    "large_level",
+    "small_level"
+])
+tof = [
+    MinimumTrials(21)]
+all_factors = [narli, amal, shp]
+block = MultiCrossBlock(all_factors,[[shp,amal], [narli], [amal]], tof)
+_gpt3:
+We crossed the factor shape with the ibidu factor. Also the factors ibidu and nohob were counterbalanced individually. All experiment sequences contained at least 21 trials.
+_hum:
+narli = Factor("nohob",  range(0,20))
+amal = Factor("ibidu",  [32, "down_lvl"])
+shp = Factor("shape", ["circle", 11, "triangle"])
+mag_factor = Factor("magnitude", [
+    "large_level",
+    1331
+])
+tof = [
+    MinimumTrials(1231)]
+all_factors = [narli, amal, shp]
+block = MultiCrossBlock(all_factors,[[shp, amal, narli], [shp],[narli], [amal]], tof)
+_gpt3:
+We crossed the factors shape, nohob and ibidu. Also the factors shape, ibidu and nohob were counterbalanced individually.All experiment sequences contained at least 1231 trials.
+_hum:
+vivo = Factor('ism', ['b', 'f', 'm', 'q', 'k', 'x', 'r', 'h'])
+one_t = DerivedLevel('1', Window(i_t, [vivo], 3, 1), 1)
+two_t = DerivedLevel('2', Window(i_n_t, [vivo], 3, 1), 5)
+tarab = Factor('po', [one_t, two_t])
+o_o_0 = DerivedLevel('1/1/0', Window(is_cool_target, [vivo], 3, 1), 3)
+o_t_0 = DerivedLevel('1/2/0', Window(is_expental_target, [vivo], 3, 1), 1)
+t_o_0 = DerivedLevel('2/1/0', Window(is_col_foil, [vivo], 3, 1), 17)
+t_t_0 = DerivedLevel('2/2/0', Window(is_expental_foil, [vivo], 3, 1), 3)
+condi = Factor('condi', [o_o_0, o_t_0, t_o_0, t_t_0])
+block = MultiCrossBlock(design=[vivo, tarab, condi],
+                        crossings=[[vivo, tarab], [tarab], [condi]],
+                        constraints=[MinimumTrials(48)])
+_gpt3:
+We crossed the ism factor with the po factor. We also counterbalanced the po factor and the condi factor individually. All experiment sequences contained at least 48 trials.
+_hum:
+nar = Factor("no",  range(0,20))
+am = Factor("ib",  ["u", "d"])
+sh = Factor("sh", ["c", "s", "t"])
+magr = Factor("mag", ["lrg","sml"])
+to = [MinimumTrials(33)]
+all_factors = [nar, am, sh, magr]
+crs = [[sh], [am], [sh]]
+block = MultiCrossBlock(all_factors,crs, tof)
+_gpt3:
+We counterbalanced the sh, ib and no factor individually. All experiment sequences contained at least 33 trials.
+_hum:
+c = Factor("color",  ["r", "g", "b", "br"])
+w = Factor("word", ["r", "g", "b", "br"])
+l       = Factor("location", ["up", "down", "left", "right"])
+response = Factor("response", [
+    DerivedLevel("left", WithinTrial(lra, [c])),
+    DerivedLevel("right", WithinTrial(rop, [c])),
+    DerivedLevel("up", WithinTrial(gr, [c])),
+    DerivedLevel("down", WithinTrial(ir_e, [c]))
+])
+con = DerivedLevel("con", WithinTrial(is_c, [c, w]))
+inc = DerivedLevel("inc", WithinTrial(is_i, [c, w]))
+congruency = Factor("congruency", [
+    congruent,
+    incongruent
+])
+trial_constraint = MinimumTrials(73)
+crs = [[c], [w],[l]]
+block        = CrossBlock([color, word, response, congruency, location], [color, word, location], [trial_constraint, ExactlyK(7, (c, "r"), AtLeastKInARow(9, ("word", "br"))])
+experiments  = synthesize_trials(block, 1)
+_gpt3:
+We counterbalanced the color, the word and the location factor individually. However, the experiment sequences were generated subject to the constraint that exactly 7 trials with the color "r" occured. Also, there were always at least 9 trials in a row with the level "br" in the word factor. All experiment sequences contained at least 73 trials.
+_hum:
+rl = Factor("af",  range(0,20))
+l = Factor("idu",  [32, "down_lvl"])
+shp = Factor("s", ["circle", 11, "triangle"])
+jap = Factor("jap", [
+    "large_level",
+    1331
+])
+tof = [
+    MinimumTrials(12)]
+all_factors = [rl, l, shp]
+jk = [[shp],[rl], [l], [l, rl]]
+block = MultiCrossBlock(all_factors, jk, tof)
+_gpt3:
+The factors s, idu and af were counterbalanced individually. Also, we crossed the idu and the af factor. All experiment sequences contained at least 12 trials.
+_hum:
+number_list = [2, 3, 4]
+letter_list = ['ba', 'di', 'fo', 'hl']
+nmbr = Factor("num", number_list)
+ltr = Factor("letter", letter_list)
+tsk = Factor("tr", ["number task", "letter task", "free choice task"])
+tr = Factor("tr tt", [
+    DerivedLevel("fs", Transition(is_ford_trl_switch, [task]), 3),
+    DerivedLevel("fr", Transition(is_ford_trl_repeat, [task])),
+    DerivedLevel("fr tr", Transition(is_fr_trl_transition, [task]), 4)
+])
+design = [nmbr, ltr, tsk, tr]
+crossing = [[ltr], [nmbr], [tr]]
+constraints = [MinimumTrials(231)]
+block = MultiCrossBlock(design, crossing, constraints)
+_gpt3:
+The factors letter, num and tr tt were counterbalanced individually. All experiment sequences contained at least 231 trials.
+_hum:
+bo = Factor("afjdk",  range(0,20))
+bibid = Factor("alsd",  ["u", "d"])
+obo = DerivedLevel('fas', Window(is_con_tat, [let], 3, 1), 3)
+abla = DerivedLevel('afsa0', Window(is_experal_tart, [let], 3, 1), 1)
+pres = Factor("nae", ["c", "s", "t"])
+fol = Factor("craoj", ["lg","sml"])
+ibli = DerivedLevel('1', Window(is_con_f, [let], 3, 1), 17)
+dab = DerivedLevel('20', Window(is_expetal_fl, [let], 3, 1), 3)
+block = MultiCrossBlock(design=[bo, bibid, pres, fol], crossings=[[bo, pres], [bibid], [fol]], constraints=[])
+_gpt3:
+We crossed the afdfk and the nae factors. Also we counterbalanced the alsd and the craoj factor individually.
+_hum:
+lt = Factor('lt', ['b', 'f', 'm', 'q', 'k', 'x', 'r', 'h'])
+one_t = DerivedLevel(1, Window(is_target, [lt], 3, 1), 1)
+two_t = DerivedLevel(2, Window(is_not_target, [lt], 3, 1), 5)
+tro = Factor('tro', [one_t, two_t])
+two_o = DerivedLevel(2, Window(is_one_back, [lt], 2, 1), 1)
+one_o = DerivedLevel(1, Window(is_not_one_back, [lt], 2, 1), 5)
+ubi_du = Factor('ubi du', [one_o, two_o])
+one_one_0 = DerivedLevel('1/1/0', Window(is_control_target, [lt], 3, 1), 3)
+one_two_0 = DerivedLevel('1/2/0', Window(is_experimental_target, [lt], 3, 1), 1)
+two_one_0 = DerivedLevel('2/1/0', Window(is_control_foil, [lt], 3, 1), 17)
+two_two_0 = DerivedLevel('2/2/0', Window(is_experimental_foil, [lt], 3, 1), 3)
+condi = Factor('condi', [one_one_0, one_two_0, two_one_0, two_two_0])
+block = MultiCrossBlock(design=[lt, target, one_back, condi],
+                        crossings=[[lt, tro], [ubi_du], [condi]],
+                        constraints=[MinimumTrials(11)])
+_gpt3:
+We crossed the letter factor and the tro factor. We also counterbalanced the ubi du factor and the condi factor individually. All experiment sequences contained at least 11 trials.
+_hum:
+hhl = Factor("hhl", ["kjorlx", "jdpo"])
+uxzmw = Factor("uxzmw", ["fgmu", "mcbni"])
+jbda = Factor("jbda", ["hfh", "ioo"])
+rspui = Factor("rspui", ["ydh", "efenx"])
+pcbhls = Factor("pcbhls", ["givo", "iejky"])
+zij = Factor("zij", ["ncecmx", "wqeey"])
+qku = Factor("qku", ["dbma", "hcmgac"])
+design=[hhl,uxzmw,jbda,rspui,pcbhls,zij,qku]
+crossing=[[hhl],[uxzmw,jbda,rspui,pcbhls],[zij],[qku],]
+block=MultiCrossBlock(design,crossing,[])
+_gpt3:
+We counterbalanced the hhl factor individually. We crossed the uxzmw, jbda, rspui, and pcbhls factor. We also counterbalanced the zij factor and the qku factor seperatly.
+_hum:
+zkjdlo = Factor("zkjdlo", ["ayt", "wqzxr"])
+ovku = Factor("ovku", ["bsqdf", "wdkg"])
+cqv = Factor("cqv", ["jwcf", "nmwias"])
+voyhsu = Factor("voyhsu", ["qjkyq", "copawk"])
+design=[zkjdlo,ovku,cqv,voyhsu]
+constraints=[]
+crossing=[voyhsu,ovku]
+block=CrossBlock(design,crossing,constraints)
+_gpt3:
+We crossed the voyhsu and the ovku factor.
+_hum:
+ijsoxa = Factor("ijsoxa", ["xpmtxu", "qjdvy"])
+rlfo = Factor("rlfo", ["ifxu", "thz"])
+gcal = Factor("gcal", ["fdrug", "jjv"])
+pcl = Factor("pcl", ["kmkt", "vjra"])
+hutnjw = Factor("hutnjw", ["qsat", "xipb"])
+tvnr = Factor("tvnr", ["cpreo", "wmt"])
+ayjsai = Factor("ayjsai", ["argqn", "zrm"])
+agh = Factor("agh", ["jtvw", "qwykkw"])
+zpfwx = Factor("zpfwx", ["nkofj", "mjmor"])
+qhokp = Factor("qhokp", ["udqzt", "xqlqm"])
+hvi = Factor("hvi", ["cxbip", "rcpflu"])
+constraints = []
+crossing = [[ijsoxa, rlfo, gcal], [qdedt, tvnr], [ayjsai], [zpfwx, qhokp, hvi]]
+design=[ijsoxa,rlfo,gcal,hutnjw,tvnr,ayjsai,agh,zpfwx,qhokp,hvi]
+block=MultiCrossBlock(design,crossing,[])
+_gpt3:
+We crossed the ijsoxa, rlfo and gcal factor. We also crossed the gdedt and the tvnr factor. The asjsai factor was crossed individually. We also crossed the zpfwx, the ghokp and the hvi factor.
+_hum:

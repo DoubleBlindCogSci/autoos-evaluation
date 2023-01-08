@@ -1,0 +1,3 @@
+There are five regular factors: vkjko, wgrgtc, wewe, jkhd, and oir. The vkjko factor consists of two levels: "fga" and "pdoq". The wgrgtc factor consists of two levels: "bbwayz" and "tmthev". The wewe factor consists of two levels: "fga" and "pdoq". The jkhd factor consists of two levels: "bbwayz" and "tmthev". The oir factor consists of two levels: "bjpq" and "sfjahf".
+The eivlb factor depends on the oir and jkhd factors and has two levels: "irho" and "hjbpis". If the oir factor matches the jkhd factor, then the trial is considered "irho". Otherwise, the trial is considered "hjbpis".
+We crossed the wgrgtc and the eivlb factor. All experiment sequences contained at least 26 trials.

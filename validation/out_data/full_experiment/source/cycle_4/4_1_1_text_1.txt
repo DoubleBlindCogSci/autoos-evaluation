@@ -1,0 +1,3 @@
+There are four regular factors: dodd, vodhe, fnv, and fiw. The dodd factor consists of two levels: "lfk" and "qsy". The vodhe factor also consists of two levels: "tkttub" and "rfctx". The fnv factor consists of two levels: "lfk" and "qsy". The fiw factor also consists of two levels: "tkttub" and "rfctx".
+The dvx factor depends on the dodd and fiw factors and has two levels: "ylij" and "gya". If the dodd factor matches the fiw factor, then the trial is considered "ylij". Otherwise, the trial is considered "gya".
+We crossed the fiw and the dodd factor. However, the experiment sequences were generated subject to the constraint that no more than 4 of the same dodd transitions could occur in a row.

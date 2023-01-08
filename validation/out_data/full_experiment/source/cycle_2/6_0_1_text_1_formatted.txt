@@ -1,0 +1,5 @@
+### REGULAR FACTORS
+There are six regular factors: bmmkoy, txl, tofpnu, xxegfy, wha, and vsmn. The bmmkoy factor consists of two levels: "fbdy" and "oobt". The txl factor consists of two levels: "iato" and "wmmzjh". The tofpnu factor consists of two levels: "fbdy" and "oobt". The xxegfy factor consists of two levels: "iato" and "wmmzjh". The wha factor consists of two levels: "npf" and "adl". The vsmn factor consists of two levels: "qdj" and "fppmhw".
+### EXPERIMENT
+We crossed the tofpnu and the vsmn factor. However, the experiment sequences were generated subject to the constraint that no more than 3 of the same wha transitions could occur in a row.
+### END OF EXPERIMENT DESIGN

@@ -1,0 +1,1 @@
+The enos factor depends on a moving trial window (for the last three trials) defined by the qgpi factor and has two levels: "sdrcc" and "osk". If the qgpi on the current trial is not "jgcumv" or the qgpi two trials back is "wknoj", then the trial is considered a "sdrcc". Otherwise, the trial is considered a "osk".

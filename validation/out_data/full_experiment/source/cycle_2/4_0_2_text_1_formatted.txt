@@ -1,0 +1,5 @@
+### REGULAR FACTORS
+There are four regular factors: rffvf, xyxhz, tbgx, and yds. The rffvf factor consists of two levels: "zfi" and "rmut". The xyxhz factor also consists of two levels: "qowuql" and "tlat". The tbgx factor consists of two levels: "zfi" and "rmut". The yds factor also consists of two levels: "qowuql" and "tlat".
+### EXPERIMENT
+We crossed the tbgx and the xyxhz factor. However, the experiment sequences were generated subject to two constraints. First, we allowed for at least 4 of the same tbgx in a row. Second, we allowed for at most 4 of the same xyxhz in a row.
+### END OF EXPERIMENT DESIGN

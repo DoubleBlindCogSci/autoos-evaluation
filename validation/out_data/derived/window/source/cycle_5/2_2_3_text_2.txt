@@ -1,0 +1,1 @@
+The wzau factor depends on a moving trial window (for the last two trials) defined by the letkr and fsre factors and has two levels: "zrdges" and "tnibr". If the letkr on the previous trial is not "xkmrbl" or the fsre on the current trial is not "argp", then the trial is considered a "zrdges". Otherwise, the trial is considered a "tnibr".

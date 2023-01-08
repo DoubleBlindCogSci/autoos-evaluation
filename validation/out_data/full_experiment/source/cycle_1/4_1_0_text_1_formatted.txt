@@ -1,0 +1,7 @@
+### REGULAR FACTORS
+There are four regular factors: vsjz, jko, smcarz, and khud. The vsjz factor consists of two levels: "sjui" and "ikecv". The jko factor also consists of two levels: "bqht" and "weiurp". The smcarz factor consists of two levels: "sjui" and "ikecv". The khud factor consists of two levels: "bqht" and "weiurp".
+### DERIVED FACTORS
+The zwizsh factor depends on the khud and vsjz factors and has two levels: "inny" and "foini". If the khud factor matches the vsjz factor, then the trial is considered "inny". Otherwise, the trial is considered "foini".
+### EXPERIMENT
+We crossed the smcarz and the khud factor.
+### END OF EXPERIMENT DESIGN

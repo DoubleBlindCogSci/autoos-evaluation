@@ -1,0 +1,1 @@
+The igpbb factor depends on the tvzg factor and has two levels: "aijl" and "ccs". If the tvzg is "hpu" and the tvzg is "outoi", then the trial is "aijl". Otherwise, the trial is "ccs".

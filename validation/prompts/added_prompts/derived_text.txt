@@ -1,0 +1,21 @@
+_hum:
+The djw factor depends on the factors taaa and vcz and has three levels: "plpx", "mlkbl", and "dosx". If the taaa factor is "fil", then the trial is considered "plpx". If the taaa factor is not "fil" and the vcz factor is "bio", then the trial is considered "mlkbl". Otherwise, the trial is considered "dosx".
+_gpt3:
+def is_djw_plpx(taaa, vcz):
+    return taaa == "fil"
+def is_djw_mlkbl(taaa, vcz):
+    return taaa != "fil" and vcz == "bio"
+def is_djw_dosx(taaa, vcz):
+    return not (is_djw_plpx(taaa) or is_djw_mlkbl(taaa, vcz))
+djw = Factor("djw", [DerivedLevel("plpx", WithinTrial(is_djw_plpx, [taaa, vcz])), DerivedLevel("mlkbl", WithinTrial(is_djw_mlkbl, [taaa, vcz])), DerivedLevel("dosx", WithinTrial(is_djw_dosx, [taaa, vcz]))])
+_hum:
+The wdd factor depends on the factors jbus, xrnu, and hyvj and has three levels: "xvgc", "yfck", and "djnv". A trial is considered "xvgc" if the jbus factor matches the xrnu factor or the xrnu factor is "hja". A trial is considered "yfck" if the jbus factor matches the hyvj factor and does not match the xrnu factor. A trial is considered "djnv" if the jbus factor does not match the xrnu factor and does not match the hyvj factor.
+_gpt3:
+def is_wdd_xvgc(jbus, xrnu, hyvj):
+    return jbus == xrnu or xrnu == "hja"
+def is_wdd_yfck(jbus, xrnu, hyvj):
+    return jbus == hyvj and jbus != xrnu
+def is_wdd_djnv(jbus, xrnu, hyvj):
+    return jbus != xrnu and jbus != hyvj
+wdd = Factor("wdd", [DerivedLevel("xvgc", WithinTrial(is_wdd_xvgc, [jbus, xrnu])), DerivedLevel("yfck", WithinTrial(is_wdd_yfck, [jbus, xrnu, hyvj])), DerivedLevel("djnv", WithinTrial(is_wdd_djnv, [jbus, xrnu, hyvj]))])
+_hum:

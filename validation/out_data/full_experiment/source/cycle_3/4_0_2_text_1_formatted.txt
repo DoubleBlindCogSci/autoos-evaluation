@@ -1,0 +1,5 @@
+### REGULAR FACTORS
+There are four regular factors: xllver, isvnwz, ayptso, and ayupup. The xllver factor consists of two levels: "kdzk" and "yea". The isvnwz factor consists of two levels: "egcg" and "vmymn". The ayptso factor consists of two levels: "kdzk" and "yea". The ayupup factor consists of two levels: "egcg" and "vmymn".
+### EXPERIMENT
+We crossed the ayptso and the ayupup factor. However, the experiment sequences were generated subject to the constraint that exactly 4 trials with the level "egcg" in the ayptso factor occured in a row. All experiment sequences contained at least 60 trials.
+### END OF EXPERIMENT DESIGN

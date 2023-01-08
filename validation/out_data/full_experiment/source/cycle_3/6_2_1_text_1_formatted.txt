@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are six regular factors: avbwpg, xzx, qrtckt, zomk, dergv, and ubzdcu. The avbwpg factor consists of two levels: "cimg" and "hbfe". The xzx factor consists of two levels: "fsk" and "nnbtc". The qrtckt factor consists of two levels: "cimg" and "hbfe". The zomk factor consists of two levels: "fsk" and "nnbtc". The dergv factor consists of two levels: "sxzdej" and "rxwuo". The ubzdcu factor consists of two levels: "vdom" and "mqg".
+### DERIVED FACTORS
+There are two derived factors: ftmaw and upva.
+## ftmaw
+The ftmaw factor depends on the xzx and ubzdcu factors and has two levels: "nch" and "mfdpop". A trial is considered "nch" if the xzx matches the ubzdcu, otherwise, it is considered "mfdpop".
+## upva
+The upva factor depends on the qrtckt and dergv factors and has two levels: "gukug" and "bseu". A trial is considered "gukug" if the qrtckt matches the dergv, otherwise, it is considered "bseu".
+### EXPERIMENT
+We crossed the dergv and the zomk factor. All experiment sequences contained at least 29 trials.
+### END OF EXPERIMENT DESIGN

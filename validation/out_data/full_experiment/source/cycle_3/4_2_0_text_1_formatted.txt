@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are four regular factors: vipu, pfl, nshhcw, and bwmn. The vipu factor consists of two levels: "nqaj" and "fftz". The pfl factor also consists of two levels: "vyo" and "xkgy". The nshhcw factor consists of two levels: "nqaj" and "fftz". The bwmn factor consists of two levels: "vyo" and "xkgy".
+### DERIVED FACTORS
+There are two derived factors: yic and sxt.
+## yic
+The yic factor depends on the bwmn and nshhcw factors and has two levels: "guxkbh" and "wekqv". A trial is considered "guxkbh" if the bwmn matches the nshhcw, otherwise, it is considered "wekqv".
+## sxt
+The sxt factor depends on the pfl and vipu factors and has two levels: "pzruw" and "mcsdum". A trial is considered "pzruw" if the pfl matches the vipu, otherwise, it is considered "mcsdum".
+### EXPERIMENT
+We crossed the pfl and the bwmn factor.
+### END OF EXPERIMENT DESIGN

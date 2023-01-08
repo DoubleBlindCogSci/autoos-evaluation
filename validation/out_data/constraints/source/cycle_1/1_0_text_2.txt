@@ -1,0 +1,1 @@
+We counterbalanced the osd, jaxz and sjln factor individually. However, the experiment sequences were generated subject to the constraint that exactly 4 trials with the level "gmjo" in the rhlqtt factor occured.

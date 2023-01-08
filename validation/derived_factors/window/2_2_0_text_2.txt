@@ -1,0 +1,1 @@
+The sztux factor depends on a moving trial window (for the last three trials) defined by the zywlx, ardkv, and vtdezu factors and has two levels: "rjsv" and "kem". If the zywlx on the current trial matches the ardkv two trials back, then the trial is considered a "rjsv". Otherwise, the trial is considered a "kem".

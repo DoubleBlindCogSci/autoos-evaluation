@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are six regular factors: zzikcb, vwx, wowvt, vwq, fchnpa, and eiznef. The zzikcb factor consists of two levels: "vqfk" and "agw". The vwx factor consists of two levels: "mgm" and "ujhniq". The wowvt factor consists of two levels: "vqfk" and "agw". The vwq factor consists of two levels: "mgm" and "ujhniq". The fchnpa factor consists of two levels: "cbk" and "gvdxnm". The eiznef factor consists of two levels: "trjw" and "oerf".
+### DERIVED FACTORS
+There are two derived factors: smr and ulkwbd.
+## smr
+The smr factor depends on the factors wowvt and zzikcb and has two levels: "izh" and "clwvo". If the wowvt factor matches the zzikcb factor, then the trial is considered "izh". Otherwise, the trial is considered "clwvo".
+## ulkwbd
+The ulkwbd factor depends on the vwx and eiznef factors and has two levels: "cvnh" and "ysbpo". If the vwx matches the eiznef, then the trial is "cvnh". Otherwise, the trial is "ysbpo".
+### EXPERIMENT
+We crossed the vwx and the zzikcb factor. However, the experiment sequences were generated subject to the constraint that at least 2 of the same vwx occured in a row. Also, there were at most 2 of the same eiznef in a row.
+### END OF EXPERIMENT DESIGN

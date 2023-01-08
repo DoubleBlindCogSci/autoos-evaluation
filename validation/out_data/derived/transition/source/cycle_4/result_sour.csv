@@ -1,0 +1,19 @@
+p(code_1),p(code_2),levels(code_1),levels(code_2),nr_input_factors,nr_output_levels
+1.0,1.0,"{'gkonmr': True, 'ove': True}","{'gkonmr': True, 'ove': True}",1,2
+1.0,1.0,"{'zbl': True, 'jvc': True, 'tnq': True}","{'zbl': True, 'jvc': True, 'tnq': True}",2,2
+1.0,1.0,"{'pkhem': True, 'zraiw': True}","{'pkhem': True, 'zraiw': True}",1,3
+1.0,1.0,"{'jmz': True, 'sqg': True, 'zbhiv': True}","{'jmz': True, 'sqg': True, 'zbhiv': True}",2,3
+1.0,1.0,"{'bkko': True, 'fhgy': True}","{'bkko': True, 'fhgy': True}",1,2
+1.0,0.0455002638963585,"{'yjvend': True, 'wlhhi': True, 'yzdw': True}","{'yjvend': True, 'wlhhi': True, 'yzdw': True}",2,2
+1.0,1.0,"{'pzapf': True, 'qrrz': True}","{'pzapf': True, 'qrrz': True}",1,3
+1.0,1.0,"{'cllom': True, 'dqbabm': True, 'hvd': True, 'ucdmr': True}","{'cllom': True, 'dqbabm': True, 'hvd': True, 'ucdmr': True}",2,3
+1.0,1.0,"{'ivtq': True, 'mos': True}","{'ivtq': True, 'mos': True}",1,2
+1.0,1.0,"{'shdi': True, 'zbahnb': True, 'dpnj': True}","{'shdi': True, 'zbahnb': True, 'dpnj': True}",2,2
+1.0,1.0,"{'hxtk': True, 'jofvzx': True}","{'hxtk': True, 'jofvzx': True}",1,3
+1.0,1.0,"{'guy': True, 'ooagz': True, 'sjkko': True}","{'guy': True, 'ooagz': True, 'sjkko': True}",2,3
+1.0,1.0,"{'jvd': True, 'kxcewo': True}","{'jvd': True, 'kxcewo': False}",1,2
+1.0,1.0,"{'umpyn': True, 'jqdtso': True, 'tzb': True}","{'umpyn': True, 'jqdtso': True, 'tzb': True}",2,2
+1.0,1.0,"{'kgtk': True, 'gkzn': True}","{'kgtk': True, 'gkzn': True}",1,3
+1.0,1.0,"{'mdl': True, 'xxksa': True, 'ofn': True, 'khgdqa': True}","{'mdl': True, 'xxksa': True, 'ofn': True, 'khgdqa': True}",2,2
+1.0,1.0,"{'jvsf': True, 'nfx': True}","{'jvsf': True, 'nfx': True}",1,3
+1.0,1.0,"{'swxrom': True, 'hfo': True, 'ybt': True}","{'swxrom': True, 'hfo': True, 'ybt': True}",2,3

@@ -1,0 +1,1 @@
+The fpqvm factor depends on a moving trial window (for the last three trials) defined by the xgtcl factor and has two levels: "fkd" and "hnepud". If the xgtcl on the previous trial is "sbjdi" or the xgtcl two trials back is "ziya", then the trial is considered a "fkd". Otherwise, the trial is considered a "hnepud".

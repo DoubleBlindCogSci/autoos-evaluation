@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are six regular factors: snat, kaqka, lvisj, gqw, wkqe, and pyoyje. The snat factor consists of two levels: "pkijs" and "krrj". The kaqka factor consists of two levels: "inqo" and "qggwd". The lvisj factor consists of two levels: "pkijs" and "krrj". The gqw factor consists of two levels: "inqo" and "qggwd". The wkqe factor consists of two levels: "cpar" and "pcfsm". The pyoyje factor consists of two levels: "yejf" and "aupzma".
+### DERIVED FACTORS
+There is a derived factor called hjip.
+## hjip
+The hjip factor depends on the lvisj and pyoyje factors and has two levels: "tutcm" and "micqz". A trial is considered "tutcm" if the lvisj factor matches the pyoyje factor, otherwise, it is considered "micqz".
+### EXPERIMENT
+We crossed the kaqka and the hjip factor. However, the experiment sequences were generated subject to two constraints. First, we allowed for no more than 2 of the same snat transitions in a row. Second, we allowed for exactly 4 of the same wkqe transitions in a row.
+### END OF EXPERIMENT DESIGN

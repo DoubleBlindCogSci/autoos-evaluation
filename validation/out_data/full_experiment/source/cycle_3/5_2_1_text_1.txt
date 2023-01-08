@@ -1,0 +1,4 @@
+There are five regular factors: ckt, smu, psn, tpk, and eyzwf. The ckt factor consists of two levels: "ypkjl" and "yitd". The smu factor consists of two levels: "xbeqh" and "albh". The psn factor consists of two levels: "ypkjl" and "yitd". The tpk factor consists of two levels: "xbeqh" and "albh". The eyzwf factor consists of two levels: "oyjyxm" and "rsk".
+The erm factor depends on the smu and psn factors and has two levels: "qhb" and "hqdkzn". A trial is considered "qhb" if the smu matches the psn, otherwise, it is considered "hqdkzn".
+The rrlxc factor depends on the eyzwf and tpk factors and has two levels: "mpm" and "gyei". A trial is considered "mpm" if the eyzwf matches the tpk, otherwise, it is considered "gyei".
+We crossed the smu and the psn factor. However, the experiment sequences were generated subject to the constraint that exactly 4 trials with the level "ypkjl" in the psn factor occured in a row.

@@ -1,0 +1,1 @@
+The tnq factor depends on the transition of the zbl and jvc factors and has two levels: "scp" and "kelr". If the zbl on the current trial is not "vpiv" and the jvc on the current trial is not "heic", then the trial is considered a "scp". Otherwise, the trial is considered a "kelr".

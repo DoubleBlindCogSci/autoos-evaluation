@@ -1,0 +1,1 @@
+The wfrxc factor depends on a moving trial window (for the last three trials) defined by the ess factor and has two levels: "llat" and "dksrk". If the ess on the previous trial is not "qez" and the ess two trials back is not "iowfse", then the trial is considered a "llat". Otherwise, the trial is considered a "dksrk".

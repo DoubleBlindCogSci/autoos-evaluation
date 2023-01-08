@@ -1,0 +1,1 @@
+The hhvbfn factor depends on the pgyrs factor and has three levels: "gobci", "cgp", and "bnhoc". If the pgyrs is "xme", then the hhvbfn is "gobci". If the pgyrs is "nmd", then the hhvbfn is "cgp". Otherwise, the hhvbfn is "bnhoc".

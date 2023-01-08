@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are four regular factors: dcoelt, wohi, zhzxp, and bsp. The dcoelt factor consists of two levels: "trehz" and "wrla". The wohi factor also consists of two levels: "kjz" and "tnks". The zhzxp factor consists of two levels: "trehz" and "wrla". The bsp factor also consists of two levels: "kjz" and "tnks".
+### DERIVED FACTORS
+There are two derived factors: ryvm and uzbpmj.
+## ryvm
+The ryvm factor depends on the dcoelt and wohi factors and has two levels: "mdvu" and "sbgra". A trial is considered "mdvu" if the dcoelt matches the wohi, otherwise, it is considered "sbgra".
+## uzbpmj
+The uzbpmj factor depends on the zhzxp and bsp factors and has two levels: "ehyn" and "vslmq". If the zhzxp factor matches the bsp factor, then the trial is considered "ehyn". Otherwise, the trial is considered "vslmq".
+### EXPERIMENT
+We crossed the dcoelt and the zhzxp factor. However, the experiment sequences were generated subject to the constraint that all experiment sequences contained at least 45 trials.
+### END OF EXPERIMENT DESIGN

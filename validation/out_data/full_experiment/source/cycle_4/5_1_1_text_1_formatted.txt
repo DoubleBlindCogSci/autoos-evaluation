@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are five regular factors: avum, lzq, cxoc, ukhrk, and guphvz. The avum factor consists of two levels: "oybsg" and "gtx". The lzq factor consists of two levels: "xrx" and "vawzds". The cxoc factor consists of two levels: "oybsg" and "gtx". The ukhrk factor consists of two levels: "xrx" and "vawzds". The guphvz factor consists of two levels: "mmmq" and "tcwyd".
+### DERIVED FACTORS
+There is a derived factor called ussdf.
+## ussdf
+The ussdf factor depends on the guphvz and lzq factors and has two levels: "kcln" and "waekbz". If the guphvz matches the lzq, then the trial is "kcln". Otherwise, the trial is "waekbz".
+### EXPERIMENT
+We crossed the avum and the guphvz factor. However, the experiment sequences were generated subject to the constraint that no more than 3 of the same ukhrk transitions could occur in a row.
+### END OF EXPERIMENT DESIGN

@@ -1,0 +1,14 @@
+p(code_1),p(code_2),levels(code_1),levels(code_2),constraints(code_1),constraints(code_2),nr_regular,dr_derived,nr_constraints
+1.0,1.0,"{'hjben': True, 'skt': True, 'urcbh': True, 'ljh': True}","{'hjben': True, 'skt': True, 'urcbh': True, 'ljh': True}",[],[],4,0,0
+1.0,1.0,"{'xti': True, 'nzuufr': True, 'bxk': True, 'gokv': True}","{'xti': True, 'nzuufr': True, 'bxk': True, 'gokv': True}","[True, True]","[True, True]",4,0,1
+1.0,1.0,"{'vrern': True, 'nfi': True, 'esewp': True, 'ffr': True}","{'vrern': True, 'nfi': True, 'esewp': True, 'ffr': True}","[True, True]","[True, True]",4,0,2
+1.0,1.0,"{'zwizsh': True, 'vsjz': True, 'jko': True, 'smcarz': True, 'khud': True}","{'zwizsh': True, 'vsjz': True, 'jko': True, 'smcarz': True, 'khud': True}",[],[],4,1,0
+1.0,1.0,"{'vnud': True, 'ozffyg': True, 'eor': True, 'ulmvu': True, 'ydyizj': True}","{'vnud': True, 'ozffyg': True, 'eor': True, 'ulmvu': True, 'ydyizj': True}",[True],[True],4,1,1
+1.0,1.0,"{'khvnl': True, 'fdan': True, 'zzdmwj': True, 'gkn': True, 'evz': True, 'toiht': True}","{'khvnl': True, 'fdan': True, 'zzdmwj': True, 'gkn': True, 'evz': True, 'toiht': True}",[True],[True],4,2,1
+1.0,1.0,"{'rlhkr': True, 'tkkanm': True, 'kwvw': True, 'vsgmy': True, 'muv': True, 'pdajd': True}","{'rlhkr': True, 'tkkanm': True, 'kwvw': True, 'vsgmy': True, 'muv': True, 'pdajd': True}","[True, True]","[True, True]",4,2,2
+1.0,1.0,"{'wtmrd': True, 'jqvsip': True, 'pvzxug': True, 'hrycmu': True, 'bpf': True}","{'wtmrd': True, 'jqvsip': True, 'pvzxug': True, 'hrycmu': True, 'bpf': True}",[],[],5,0,0
+1.0,1.0,"{'unrxx': True, 'vvdgwd': True, 'fbr': True, 'fqyzr': True, 'qqgqvy': True}","{'unrxx': True, 'vvdgwd': True, 'fbr': True, 'fqyzr': True, 'qqgqvy': True}",[True],[True],5,0,1
+1.0,1.0,"{'vceeea': True, 'kxk': True, 'oqba': True, 'voo': True, 'wtq': True, 'isf': True}","{'vceeea': True, 'kxk': True, 'oqba': True, 'voo': True, 'wtq': True, 'isf': True}",[],[],5,1,0
+1.0,1.0,"{'uqdkg': True, 'vshu': True, 'xekqc': True, 'xnffn': True, 'dpfsnj': True, 'tpuh': True}","{'uqdkg': True, 'vshu': True, 'xekqc': True, 'xnffn': True, 'dpfsnj': True, 'tpuh': True}",[True],[True],5,1,1
+1.0,1.0,"{'ubgs': True, 'htydch': True, 'tclwi': True, 'kvxse': True, 'icb': True, 'rfsofe': True}","{'ubgs': True, 'htydch': True, 'tclwi': True, 'kvxse': True, 'icb': True, 'rfsofe': True}",[],[],6,0,0
+0.9941243682104942,0.9941243682104942,"{'pohbz': True, 'edcx': True, 'yoma': True, 'wmhjq': True, 'wegj': True, 'fdhif': True}","{'pohbz': True, 'edcx': True, 'yoma': True, 'wmhjq': True, 'wegj': True, 'fdhif': True}","[True, True]","[True, True]",6,0,2

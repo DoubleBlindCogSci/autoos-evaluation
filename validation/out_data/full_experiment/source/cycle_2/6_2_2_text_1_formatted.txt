@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are six regular factors: cxac, byvob, ayfgq, tnd, uwgbrp, and phb. The cxac factor consists of two levels: "alpai" and "mdiei". The byvob factor also consists of two levels: "juc" and "bzdi". The ayfgq factor consists of two levels: "alpai" and "mdiei". The tnd factor also consists of two levels: "juc" and "bzdi". The uwgbrp factor consists of two levels: "gnyajh" and "bqg". The phb factor also consists of two levels: "mjyfwo" and "jea".
+### DERIVED FACTORS
+There are two derived factors: funv and bkcnhy.
+## funv
+The funv factor depends on the factors phb and uwgbrp and has two levels: "jrhlqv" and "axyuo". A trial is considered "jrhlqv" if the phb matches the uwgbrp, otherwise, it is considered "axyuo".
+## bkcnhy
+The bkcnhy factor depends on the cxac and tnd factors and has two levels: "cfae" and "ljbbi". If the cxac is equal to the tnd, then the trial is "cfae". Otherwise, the trial is "ljbbi".
+### EXPERIMENT
+We crossed the cxac and the byvob factor. However, the experiment sequences were generated subject to two constraints. First, there were always at least 3 trials in a row with the level "juc" in the byvob factor. Second, there were never more than 4 trials in a row with the level "gnyajh" in the uwgbrp factor.
+### END OF EXPERIMENT DESIGN

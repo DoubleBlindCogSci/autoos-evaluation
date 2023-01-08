@@ -1,0 +1,4 @@
+There are five regular factors: mrgf, icswhs, xrzgp, imlvth, and nrf. The mrgf factor consists of two levels: "fsvan" and "nie". The icswhs factor consists of two levels: "llcpvl" and "wchnv". The xrzgp factor consists of two levels: "fsvan" and "nie". The imlvth factor consists of two levels: "llcpvl" and "wchnv". The nrf factor consists of two levels: "rlwwkc" and "qoakhq".
+The obg factor depends on the mrgf and xrzgp factors and has two levels: "gpqi" and "kfpob". A trial is considered "gpqi" if the mrgf matches the xrzgp, otherwise, it is considered "kfpob".
+The jvks factor depends on the nrf and imlvth factors and has two levels: "fhdlv" and "gwvvx". If the nrf factor matches the imlvth factor, then the trial is considered a "fhdlv". Otherwise, the trial is considered a "gwvvx".
+We crossed the jvks and the obg factor.

@@ -1,0 +1,1 @@
+The lssd factor depends on the xkj factor and has three levels: "jshn", "ztvy", and "enxao". If the xkj is "savcm", then the lssd is "jshn". If the xkj is "cdrgmp", then the lssd is "ztvy". If the xkj is neither "savcm" nor "cdrgmp", then the lssd is "enxao".

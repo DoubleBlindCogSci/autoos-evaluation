@@ -1,0 +1,2 @@
+There are four regular factors: vrern, nfi, esewp, and ffr. The vrern factor consists of two levels: "ofdjhs" and "ansm". The nfi factor also consists of two levels: "ofxmh" and "lyvsf". The esewp factor consists of two levels: "ofdjhs" and "ansm". The ffr factor also consists of two levels: "ofxmh" and "lyvsf".
+We crossed the ffr and the esewp factor. However, the experiment sequences were generated subject to two constraints. First, we allowed for no more than 3 of the same esewp transitions in a row. Second, we allowed for at least 4 of the same ffr transitions in a row.

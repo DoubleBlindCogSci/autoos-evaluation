@@ -1,0 +1,5 @@
+### REGULAR FACTORS
+There are five regular factors: kbj, npycyx, ltjqdz, dbb, and tdpseh. The kbj factor consists of two levels: "jnhscz" and "enmgky". The npycyx factor consists of two levels: "xbz" and "pjtbin". The ltjqdz factor consists of two levels: "jnhscz" and "enmgky". The dbb factor consists of two levels: "xbz" and "pjtbin". The tdpseh factor consists of two levels: "zgn" and "sfu".
+### EXPERIMENT
+We crossed the npycyx and the tdpseh factor. However, the experiment sequences were generated subject to the constraint that at least 3 trials with the tdpseh factor occured in a row. All experiment sequences contained at least 26 trials.
+### END OF EXPERIMENT DESIGN

@@ -1,0 +1,1 @@
+The jep factor depends on a moving trial window (for the last four trials) defined by the ceu and bdyt factors and has two levels: "ekkemy" and "koffu". If the ceu on the previous trial is "rpcrs" and the bdyt three trials back is "lqion", then the trial is considered a "ekkemy". Otherwise, the trial is considered a "koffu".

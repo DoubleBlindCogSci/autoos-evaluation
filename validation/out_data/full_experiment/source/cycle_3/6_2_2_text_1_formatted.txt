@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are six regular factors: jjywqq, tjwatw, eayq, zlt, wgjkb, and gmrf. The jjywqq factor consists of two levels: "ybtpmi" and "lqlydm". The tjwatw factor consists of two levels: "qezqa" and "dypoob". The eayq factor consists of two levels: "ybtpmi" and "lqlydm". The zlt factor consists of two levels: "qezqa" and "dypoob". The wgjkb factor consists of two levels: "vajuv" and "kapoyj". The gmrf factor consists of two levels: "licx" and "qgi".
+### DERIVED FACTORS
+There are two derived factors: gho and tvz.
+## gho
+The gho factor depends on the gmrf and zlt factors and has two levels: "dnvcxo" and "fhuy". If the gmrf factor matches the zlt factor, then the trial is considered "dnvcxo". Otherwise, the trial is considered "fhuy".
+## tvz
+The tvz factor depends on the wgjkb and tjwatw factors and has two levels: "wsalj" and "lopa". A trial is considered "wsalj" if the wgjkb factor matches the tjwatw factor, otherwise, it is considered "lopa".
+### EXPERIMENT
+We crossed the eayq and the gho factor. However, the experiment sequences were generated subject to the constraint that exactly 2 trials with the level "qezqa" in the tjwatw factor occured. All experiment sequences contained at least 25 trials.
+### END OF EXPERIMENT DESIGN

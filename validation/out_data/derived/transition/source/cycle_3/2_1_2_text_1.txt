@@ -1,0 +1,1 @@
+The qfre factor depends on the transition of the oeiu factor and has two levels: "sopit" and "alor". If the oeiu on the previous trial is not "ujudp" and the oeiu on the current trial is "mbe", then the trial is considered a "sopit". Otherwise, the trial is considered an "alor".

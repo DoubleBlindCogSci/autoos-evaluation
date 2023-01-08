@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are four regular factors: rzadpo, tcx, mpsi, and qqsuu. The rzadpo factor consists of two levels: "elxlc" and "zim". The tcx factor consists of two levels: "oile" and "tmxtso". The mpsi factor consists of two levels: "elxlc" and "zim". The qqsuu factor consists of two levels: "oile" and "tmxtso".
+### DERIVED FACTORS
+There is a derived factor called zyhs.
+## zyhs
+The zyhs factor depends on the regular factors qqsuu and rzadpo and has two levels: "fxyqp" and "nljia". A trial is considered "fxyqp" if the qqsuu matches the rzadpo, otherwise, it is considered "nljia".
+### EXPERIMENT
+We crossed the rzadpo and the tcx factor. However, the experiment sequences were generated subject to the constraint that no more than 4 of the same zyhs transitions could occur in a row.
+### END OF EXPERIMENT DESIGN

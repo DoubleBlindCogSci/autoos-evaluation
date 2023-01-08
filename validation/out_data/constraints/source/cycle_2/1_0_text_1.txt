@@ -1,0 +1,1 @@
+We crossed the clfx and the xbhpdm factor. However, the experiment sequences were generated subject to the constraint that exactly 4 trials with the level "dge" in the epf factor were included.

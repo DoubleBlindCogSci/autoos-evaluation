@@ -1,0 +1,15 @@
+p(code_1),p(code_2),levels(code_1),levels(code_2),nr_input_factors,nr_output_levels
+1.0,1.0,"{'kujc': True, 'sqln': True}","{'kujc': True, 'sqln': True}",1,2
+1.0,1.0,"{'cbjmq': True, 'xtm': True, 'iljb': True}","{'cbjmq': True, 'xtm': True, 'iljb': True}",2,2
+1.0,1.0,"{'msghmm': True, 'kfz': True}","{'msghmm': True, 'kfz': True}",1,3
+1.0,1.0,"{'vusvwj': True, 'rqpzlq': True, 'hkfpd': True}","{'vusvwj': True, 'rqpzlq': True, 'hkfpd': True}",2,3
+1.0,1.0,"{'ephyg': True, 'ulhgwg': True}","{'ephyg': True, 'ulhgwg': True}",1,3
+1.0,1.0,"{'ehx': True, 'hyjga': True}","{'ehx': True, 'hyjga': False}",1,2
+1.0,1.0,"{'ffp': True, 'pug': True}","{'ffp': True, 'pug': True}",1,3
+1.0,1.0,"{'cltze': True, 'auvl': True}","{'cltze': True, 'auvl': True}",1,2
+1.0,1.0,"{'letkr': True, 'fsre': True, 'wzau': True}","{'letkr': True, 'fsre': True, 'wzau': False}",2,2
+1.0,1.0,"{'jkoa': True, 'rvuld': True}","{'jkoa': True, 'rvuld': True}",1,3
+1.0,1.0,"{'zwin': True, 'tqxev': True, 'nwm': True}","{'zwin': True, 'tqxev': True, 'nwm': False}",2,3
+1.0,1.0,"{'jlb': True, 'cyt': True}","{'jlb': True, 'cyt': True}",1,2
+1.0,1.0,"{'dctt': True, 'zftfq': True, 'ibcdmx': True}","{'dctt': True, 'zftfq': True, 'ibcdmx': True}",2,2
+1.0,1.0,"{'dmjbcm': True, 'hhvfof': True}","{'dmjbcm': True, 'hhvfof': True}",1,3

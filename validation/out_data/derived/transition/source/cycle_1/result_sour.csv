@@ -1,0 +1,10 @@
+p(code_1),p(code_2),levels(code_1),levels(code_2),nr_input_factors,nr_output_levels
+1.0,1.0,"{'ogsg': True, 'qcq': True}","{'ogsg': True, 'qcq': True}",1,2
+1.0,1.0,"{'ekav': True, 'dway': True, 'auik': True, 'bfsf': True}","{'ekav': True, 'dway': True, 'auik': True, 'bfsf': True}",2,2
+1.0,1.0,"{'exii': True, 'ujsa': True}","{'exii': True, 'ujsa': False}",1,2
+1.0,1.0,"{'ufgywf': True, 'rudnb': True, 'inb': True, 'jxoudi': True}","{'ufgywf': True, 'rudnb': True, 'inb': True, 'jxoudi': True}",2,2
+1.0,1.0,"{'zpytsb': True, 'kiv': True}","{'zpytsb': True, 'kiv': True}",1,2
+1.0,1.0,"{'ljyd': True, 'fxklzn': True, 'wykjm': True, 'nhhng': True}","{'ljyd': True, 'fxklzn': True, 'wykjm': True, 'nhhng': False}",2,2
+1.0,1.0,"{'aus': True, 'nsvlgj': True}","{'aus': True, 'nsvlgj': True}",1,2
+1.0,1.0,"{'cfgp': True, 'zotx': True, 'oum': True}","{'cfgp': True, 'zotx': True, 'oum': True}",2,2
+1.0,1.0,"{'szaa': True, 'npswlj': True}","{'szaa': True, 'npswlj': True}",1,2

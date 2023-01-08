@@ -1,0 +1,7 @@
+### REGULAR FACTORS
+There are five regular factors: loslz, odd, mefc, hkki, and oju. The loslz factor consists of two levels: "acnxo" and "igqh". The odd factor consists of two levels: "bojkc" and "phe". The mefc factor consists of two levels: "acnxo" and "igqh". The hkki factor consists of two levels: "bojkc" and "phe". The oju factor consists of two levels: "vsw" and "xfg".
+### DERIVED FACTORS
+The djawfc factor depends on the oju and hkki factors and has two levels: "clt" and "pkadp". If the oju factor matches the hkki factor, then the trial is considered "clt". Otherwise, the trial is considered "pkadp".
+### EXPERIMENT
+We crossed the djawfc and the hkki factor. However, the experiment sequences were generated subject to the constraint that at least 4 trials with the level "pkadp" in the mefc factor occured in a row. All experiment sequences contained at least 27 trials.
+### END OF EXPERIMENT DESIGN

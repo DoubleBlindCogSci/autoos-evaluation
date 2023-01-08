@@ -1,0 +1,4 @@
+There are four regular factors: toll, pkkm, hhizte, and rhl. The toll factor consists of two levels: "nqwgeu" and "wwudy". The pkkm factor also consists of two levels: "khun" and "bkyhp". The hhizte factor consists of two levels: "nqwgeu" and "wwudy". The rhl factor also consists of two levels: "khun" and "bkyhp".
+The cwh factor depends on the rhl and hhizte factors and has two levels: "zdljt" and "blukz". A trial is considered "zdljt" if the rhl matches the hhizte, otherwise, it is considered "blukz".
+The hnt factor depends on the pkkm and toll factors and has two levels: "rjvf" and "qoemb". A trial is considered "rjvf" if the pkkm matches the toll, otherwise, it is considered "qoemb".
+We crossed the toll and the hhizte factor. However, the experiment sequences were generated subject to the constraint that at least 4 trials with the same level in the hhizte factor occured in a row. All experiment sequences contained at least 36 trials.

@@ -1,0 +1,1 @@
+The vqh factor depends on a moving trial window (for the last four trials) defined by the crzz, svrko, and yurqow factors. It has two levels: "hmks" and "aqjgfj". If the crzz three trials back is not equal to the yurqow two trials back and the crzz two trials back is not equal to the svrko three trials back, then the trial is "hmks". Otherwise, the trial is "aqjgfj".

@@ -1,0 +1,5 @@
+### REGULAR FACTORS
+There are five regular factors: hzss, kdzg, axn, cvf, and djjd. The hzss factor consists of two levels: "ujnts" and "jkw". The kdzg factor consists of two levels: "xdrmxs" and "asdgvm". The axn factor consists of two levels: "ujnts" and "jkw". The cvf factor consists of two levels: "xdrmxs" and "asdgvm". The djjd factor consists of two levels: "vymblj" and "sii".
+### EXPERIMENT
+We crossed the cvf and the hzss factor. However, the experiment sequences were generated subject to the constraint that at least 4 trials in a row with the level "ujnts" in the axn factor occured.
+### END OF EXPERIMENT DESIGN

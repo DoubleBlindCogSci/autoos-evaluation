@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are five regular factors: qwm, qgau, vztzuw, upvxq, and ykfncu. The qwm factor consists of two levels: "dfyept" and "pfaqzf". The qgau factor consists of two levels: "ljmk" and "bajuw". The vztzuw factor consists of two levels: "dfyept" and "pfaqzf". The upvxq factor consists of two levels: "ljmk" and "bajuw". The ykfncu factor consists of two levels: "uzoatr" and "ocup".
+### DERIVED FACTORS
+There are two derived factors: zklvsn and swopp.
+## zklvsn
+The zklvsn factor depends on the qwm and upvxq factors and has two levels: "dxvrh" and "rxalmf". A trial is considered "dxvrh" if the qwm matches the upvxq, otherwise, it is considered "rxalmf".
+## swopp
+The swopp factor depends on the vztzuw and qgau factors and has two levels: "airucu" and "ekoc". A trial is considered "airucu" if the vztzuw matches the qgau, otherwise, it is considered "ekoc".
+### EXPERIMENT
+We crossed the ykfncu and the vztzuw factor.
+### END OF EXPERIMENT DESIGN

@@ -1,0 +1,1 @@
+The rok factor depends on a moving trial window (for the last three trials) defined by the dnpj and xgs factors and has two levels: "vxes" and "rmfl". If the dnpj on the current trial is not "mrgi" and the xgs two trials back is "gjcuqy", then the trial is considered a "vxes". Otherwise, the trial is considered a "rmfl".

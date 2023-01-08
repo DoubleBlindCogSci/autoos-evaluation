@@ -1,0 +1,1 @@
+The ypqk factor depends on a moving trial window (for the last four trials) defined by the elfx factor and has two levels: "mxonf" and "dhoai". If the elfx on the previous trial is "vxtnpa" and the elfx three trials back is not "qpilm", then the trial is considered a "mxonf". Otherwise, the trial is considered a "dhoai".

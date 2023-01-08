@@ -1,0 +1,1 @@
+The nbftir factor depends on the transition of the rail, hes, and kpngck factors and has two levels: "skb" and "afo". If the rail on the current trial is not equal to the hes on the previous trial or if the rail on the current trial is not equal to the kpngck on the next trial, then the trial is considered "skb". Otherwise, the trial is considered "afo".

@@ -1,0 +1,1 @@
+The rcq factor depends on the qvno, yqskm, and hrl factors and has two levels: "tclmcm" and "pihm". If the qvno is not equal to the hrl, then the trial is "tclmcm". Otherwise, the trial is "pihm".

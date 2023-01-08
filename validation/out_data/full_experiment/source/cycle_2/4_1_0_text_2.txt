@@ -1,0 +1,3 @@
+There are four regular factors: wbr, wlw, pcnmlg, and tow. The wbr factor consists of two levels: "ntmsnw" and "fouy". The wlw factor consists of two levels: "ycpahd" and "eydki". The pcnmlg factor consists of two levels: "ntmsnw" and "fouy". The tow factor consists of two levels: "ycpahd" and "eydki". There is one derived factor: srcywn. The srcywn factor consists of two levels: "icthpl" and "txdzmf". The srcywn factor is derived from the wlw and tow factors. The srcywn factor is a within-trial factor.
+The srcywn factor depends on the wlw and tow factors and has two levels: "icthpl" and "txdzmf". A trial is considered "icthpl" if the wlw matches the tow, otherwise, it is considered "txdzmf".
+We crossed the wbr and the wlw factor.

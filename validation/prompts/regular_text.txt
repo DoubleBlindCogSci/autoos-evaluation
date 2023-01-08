@@ -1,0 +1,99 @@
+_hum:
+there are two regular factors: color and word. the color factor consists of four levels: "red", "green", "blue", "brown". the word factor also consists of the four levels: "red", "green", "blue", "brown".
+_gpt3:
+color = Factor("color",  ["red", "green", "blue", "brown"])
+word = Factor("word", ["red", "green", "blue", "brown"])
+_hum:
+there are three regular factors: color, word, and task. the color factor consists of two levels: "red" and "green". the word factor also consists of the same two levels: "red" and "green". the task factor has the levels "color naming" and "word reading".
+_gpt3:
+color = Factor("color",  ["red", "green"])
+word = Factor("word", ["red", "green"])
+task = Factor("task", ["color naming", "word reading"])
+_hum:
+there is one regular factor: letter. the letter factor consists of the six letters: "A", "B", "C", "D", "E", and "F".
+_gpt3:
+letter = Factor("letter",  ["A", "B", "C", "D", "E", "F"])
+_hum:
+there are three regular factors: deviant color, deviant orientation, and deviant movement. the deviant color factor consists of the two levels "pink" and "purple". the deviant orientation factor consists of the two levels "left" and "right". the deviant movement factor consists of the two levels "vertical" and "horizontal".
+_gpt3:
+deviant_color = Factor("deviant color",  ["pink", "purple"])
+deviant_orientation = Factor("deviant orientation", ["left", "right"])
+deviant_movement = Factor("deviant movement", ["vertical", "horizontal"])
+_hum:
+there are three regular variables: color, word and location. the color variable consists of four levels: "red", "green", "blue", "brown". the word variable also consists of the four levels: "red", "green", "blue", "brown". the location variable consists of four levels: "up", "down", "left", "right".
+_gpt3:
+color = Factor("color",  ["red", "green", "blue", "brown"])
+word = Factor("word", ["red", "green", "blue", "brown"])
+location = Factor("location", ["up", "down", "left", "right"])
+_hum:
+there are two regular factors: stimulus and task cue. the stimulus factor consists of four levels: "green diamond", "blue diamond", "green heart", "blue heart". the task cue factor consists of two levels: "color" and "shape".
+_gpt3:
+stimulus = Factor("stimulus", ["green diamond", "blue diamond", "green heart", "blue heart"])
+task_cue = Factor("task cue", ["color", "shape"])
+_hum:
+there are two regular factors: color and sounds. the color factor consists of three levels: "blue", "green", "red". the sounds factor consists of two levels: "bell" and "honk".
+_gpt3:
+color = Factor("color", ["blue", "green", "red"])
+sounds = Factor("sounds", ["bell", "honk"])
+_hum:
+there are four regular factors: color, sounds, letters, and numbers. the color factor consists of three levels: "blue", "green", "red". the sounds factor consists of two levels: "bell" and "honk". the letters factor consists of three levels: "a", "b", "c". the numbers factor consists of five levels: "1", "2", "3", "4", and "5".
+_gpt3:
+color = Factor("color", ["blue", "green", "red"])
+sounds = Factor("sounds", ["bell", "honk"])
+letters = Factor("letters", ["a", "b", "c"])
+numbers = Factor("numbers", ["1", "2", "3", "4", "5"])
+_hum:
+there are two regular factors: object identity and motion. the object identity factor consists of two levels: "H" and "S". for the object identity factor, the ratio between the levels "H" and "S" was 2 to 1. the motion factor also consists of the two levels: "left" and "right".
+_gpt3:
+object_identity = Factor("object identity", [Level("H", 2), Level("S", 1)])
+motion = Factor("motion", ["left", "right"])
+_hum:
+there are two regular factors: color and word. the color factor consists of two levels: "red" and "green". the word factor consists of the four levels: "red", "green, "blue" and "brown". for the color factor, the ratio of the levels "red" and "green" was 3 to 2.
+_gpt3:
+color = Factor("color",  [Level("red",3), Level("green",2)])
+word = Factor("word", ["red", "green", "blue", "brown"])
+_hum:
+there are two regular factors: color and word. the color factor consists of two levels: "red" and "green". the word factor consists of the four levels: "red", "green, "blue" and "brown". however, for the color factor, the ratio of the levels "red" and "green" was 3 to 2.
+_gpt3:
+color = Factor("color",  [Level("red",3), Level("green",2)])
+word = Factor("word", ["red", "green", "blue", "brown"])
+_hum:
+there is one regular factor: letter. the letter factor consists of the six letters: "A", "B", "C", "D", "E", and "F". for the letter factor, the letter "A" appeared three times as often as the letters "B", "C", "E" and "F", and the letter "D" appeared twice as often as "B", "C", "E" and "F".
+_gpt3:
+letter = Factor("letter",  [Level("A", 3), "B", "C", Level("D", 2), "E", "F"])
+_hum:
+there is one regular factor: letter. the letter factor consists of the six letters: "A", "B", "C", "D", "E", and "F". in the letter factor, the letter "A" appeared three times as often as the letters "B", "C", "E" and "F" and the letter "D" appeared twice as often as "B", "C", "E" and "F".
+_gpt3:
+letter = Factor("letter",  [Level("A", 3), Level("B", 1), Level("C", 1), Level("D", 2), Level("E", 1), Level("F", 1)])
+_hum:
+there is one regular factor: word. the word factor consists of the six letters: "red", "green", "yellow", "blue" and "pink". in the word factor, word "pink" appeared four times as often as the letters "red", "green" and "yellow" and the word "blue" appeared twice as often as "red", "green" and "yellow".
+_gpt3:
+word = Factor("word",  ["red", Level("green", 1), "yellow", Level("blue", 2), Level("pink", 4)])
+_hum:
+there are is one regular variables: word. the word variable consists of the six letters: "red", "green", "yellow", "blue" and "pink" with a ratio of 1 : 2 : 4 : 2 : 4, respectively. for instance, the level "green" appeared twice as often as the level "red".
+_gpt3:
+word = Factor("word",  ["red", Level("green", 2), Level("yellow", 4), Level("blue", 2), Level("pink", 4)])
+_hum:
+there are two regular factors: object identity and motion. the object identity factor consists of two levels: "H" and "S". for the object identity factor, the ratio level "H" appears three times as often as the level "S". the motion factor also consists of the two levels: "left" and "right".
+_gpt3:
+object_identity = Factor("object identity", [Level("H", 3), Level("S", 1)])
+motion = Factor("motion", ["left", "right"])
+_hum:
+there are two regular variable: color and word. the variable color consists of two levels: "red" and green". however, in the color variable, the levels occur with different frequencies: the level "green" appears four times as often as the level "red". the word variable consists of the four levels: "red", "green, "blue" and "brown".
+_gpt3:
+color = Factor("color",  ["red", Level("green",4)])
+word = Factor("word", ["red", "green", "blue", "brown"])
+_hum:
+there are three regular variables: caba and cuba and wobi. the variable caba consists of two levels: "red" and green". however, in the caba variable, the levels occur with different frequencies: the level "green" appears 17 times as often as the level "red". the cuba variable consists of the four levels: "red", "green, "blue" and "brown". The wobi variable also consits of the four levels "red", "green", "blue" and "brown. In the cuba variable the level "green" and "brown" appear in the ratio 12 to 63.
+_gpt3:
+caba = Factor("caba", [Level("red", 1), Level("green", 17)])
+wuba = Factor("cuba", ["red", "green", "blue", "brown"])
+wobi = Factor("wobi", [Level("red", 1), Level("green", 12), Level("blue", 1), Level("brown", 63)]
+_hum:
+there are four regular factors: color, sounds, letters, and numbers. the color factor consists of three levels: "blue", "green", "red". the sounds factor consists of two levels: "bell" and "honk". the letters factor consists of three levels: "a", "b", "c". the numbers factor consists of five levels: "1", "2", "3", "4", and "5". In the sounds factor the levels "bell" and "honk" appear in the ratio 913 to 11. In th letters factor the level "a" occured 31 times as often a "b" or "c". In th numbers factor the level "2" and "3" were in the ratio 71 to 3 and the level "3" and "1" were in the ratio 3 to 5.
+_gpt3:
+color = Factor("color", ["blue", "green", "red"])
+sounds = Factor("sounds", [Level("bell", 913), Level("honk", 11)])
+letters = Factor("letters", [Level("a", 31), Level("b", 1), Level("c", 1)])
+numbers = Factor("numbers", [Level("1", 5), Level("2", 71), Level("3", 3), Level("4", 1), Level("5", 1)])
+_hum:

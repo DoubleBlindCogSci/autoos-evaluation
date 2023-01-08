@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are four regular factors: nzn, slm, qaufq, and uzqpl. The nzn factor consists of two levels: "nvvtv" and "patw". The slm factor also consists of two levels: "boga" and "flif". The qaufq factor consists of two levels: "nvvtv" and "patw". The uzqpl factor consists of two levels: "boga" and "flif".
+### DERIVED FACTORS
+There are two derived factors: ehzalf and jxh.
+## ehzalf
+The ehzalf factor depends on the slm and qaufq factors and has two levels: "bsigle" and "hbc". A trial is considered "bsigle" if the slm matches the qaufq, otherwise, it is considered "hbc".
+## jxh
+The jxh factor depends on the uzqpl and nzn factors and has two levels: "safm" and "byfhj". If the uzqpl factor matches the nzn factor, then the trial is considered "safm". Otherwise, the trial is considered "byfhj".
+### EXPERIMENT
+We crossed the jxh and the ehzalf factor. However, the experiment sequences were generated subject to the constraint that at least 4 trials with the level "patw" in the qaufq factor occured. All experiment sequences contained at least 15 trials.
+### END OF EXPERIMENT DESIGN

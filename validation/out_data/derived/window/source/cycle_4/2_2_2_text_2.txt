@@ -1,0 +1,1 @@
+The mod factor depends on a moving trial window (for the last four trials) defined by the molokf and ooyt factors and has two levels: "lgdc" and "pmkjr". If the molokf three trials back is "zihb" and the ooyt two trials back is not "hoin", then the trial is considered a "lgdc". Otherwise, the trial is considered a "pmkjr".

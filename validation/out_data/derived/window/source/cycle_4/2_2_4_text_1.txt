@@ -1,0 +1,1 @@
+The wnegfv factor depends on a moving trial window (for the last three trials) defined by the nlr and aucsgj factors and has two levels: "sxu" and "anfc". If the nlr on the previous trial is "yehmq" and the aucsgj two trials back is "pmjk", then the trial is considered a "sxu". Otherwise, the trial is considered a "anfc".

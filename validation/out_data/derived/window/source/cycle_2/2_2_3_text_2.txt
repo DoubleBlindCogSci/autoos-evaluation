@@ -1,0 +1,1 @@
+The ckfq factor depends on a moving trial window (for the last three trials) defined by the ydckd and frj factors and has two levels: "vbsggr" and "qdpq". If the ydckd two trials back is "ezdw" and the frj is "rcqr", then the trial is considered a "vbsggr". Otherwise, the trial is considered a "qdpq".

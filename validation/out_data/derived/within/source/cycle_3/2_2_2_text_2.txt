@@ -1,0 +1,1 @@
+The fxgl factor depends on the lnayb, tln, and jplz factors and has two levels: "gmmc" and "lxfgme". If the lnayb factor matches the tln factor, then the trial is considered a "gmmc". Otherwise, the trial is considered a "lxfgme".

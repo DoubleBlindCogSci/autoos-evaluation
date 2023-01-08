@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are four regular factors: uwlh, uza, bog, and boh. The uwlh factor consists of two levels: "hhs" and "ptiktj". The uza factor consists of two levels: "uiq" and "tmxav". The bog factor consists of two levels: "hhs" and "ptiktj". The boh factor consists of two levels: "uiq" and "tmxav".
+### DERIVED FACTORS
+There are two derived factors: znx and dupc.
+## znx
+The znx factor depends on the uwlh and boh factors and has two levels: "yjafe" and "kndf". A trial is considered "yjafe" if the uwlh matches the boh, otherwise, it is considered "kndf".
+## dupc
+The dupc factor depends on the uza and bog factors and has two levels: "duyj" and "ffiokh". If the uza factor matches the bog factor, then the trial is considered "duyj". Otherwise, the trial is considered "ffiokh".
+### EXPERIMENT
+We crossed the bog and the uza factor. However, the experiment sequences were generated subject to the constraint that at least 3 trials in a row with the level "yjafe" in the znx factor occured. Also there were always exactly 3 trials in a row with the level "ffiokh" in the boh factor.
+### END OF EXPERIMENT DESIGN

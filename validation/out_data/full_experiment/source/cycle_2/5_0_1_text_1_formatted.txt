@@ -1,0 +1,5 @@
+### REGULAR FACTORS
+There are five regular factors: lbb, sndpyx, dwbg, wrzorv, and luu. The lbb factor consists of two levels: "yzmmfa" and "arhbc". The sndpyx factor consists of two levels: "utxa" and "raqlqp". The dwbg factor consists of two levels: "yzmmfa" and "arhbc". The wrzorv factor consists of two levels: "utxa" and "raqlqp". The luu factor consists of two levels: "gqiz" and "qjv".
+### EXPERIMENT
+We crossed the wrzorv and the luu factor. However, the experiment sequences were generated subject to the constraint that no more than 3 of the same trials could occur in a row.
+### END OF EXPERIMENT DESIGN

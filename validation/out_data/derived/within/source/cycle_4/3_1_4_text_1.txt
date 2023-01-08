@@ -1,0 +1,1 @@
+The brx factor depends on the txj factor and has three levels: "logc", "lhavt", and "wrcs". If the txj is "zbrskh", then the brx is "logc". If the txj is "woqju", then the brx is "lhavt". If the txj is neither "zbrskh" nor "woqju", then the brx is "wrcs".

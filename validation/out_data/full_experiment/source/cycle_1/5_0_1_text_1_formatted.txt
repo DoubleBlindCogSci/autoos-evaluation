@@ -1,0 +1,5 @@
+### REGULAR FACTORS
+There are five regular factors: unrxx, vvdgwd, fbr, fqyzr, and qqgqvy. The unrxx factor consists of two levels: "juabnh" and "gbnqm". The vvdgwd factor consists of two levels: "ccwoqj" and "zevijt". The fbr factor consists of two levels: "juabnh" and "gbnqm". The fqyzr factor consists of two levels: "ccwoqj" and "zevijt". The qqgqvy factor consists of two levels: "jmterk" and "ripcij".
+### EXPERIMENT
+We crossed the unrxx and the fbr factor. The experiment sequences were generated subject to the constraint that at least 4 trials in a row with the level "jmterk" in the qqgqvy factor occured.
+### END OF EXPERIMENT DESIGN

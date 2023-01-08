@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are five regular factors: geo, jms, mqhf, rqqs, and xocanv. The geo factor consists of two levels: "nifi" and "dwc". The jms factor also consists of two levels: "krfi" and "cwkx". The mqhf factor consists of two levels: "nifi" and "dwc". The rqqs factor also consists of two levels: "krfi" and "cwkx". The xocanv factor consists of two levels: "poqlbg" and "gcr".
+### DERIVED FACTORS
+There are two derived factors: cvfre and nkd.
+## cvfre
+The cvfre factor depends on the mqhf and xocanv factors and has two levels: "tktwoa" and "ljnw". A trial is considered "tktwoa" if the mqhf factor matches the xocanv factor, otherwise, it is considered "ljnw".
+## nkd
+The nkd factor depends on the jms and geo factors and has two levels: "gzzjd" and "yan". If the jms factor matches the geo factor, then the trial is considered a "gzzjd". Otherwise, the trial is considered a "yan".
+### EXPERIMENT
+We crossed the mqhf and the xocanv factor. However, the experiment sequences were generated subject to the constraint that no more than 2 of the same jms transitions could occur in a row. All experiment sequences contained at least 25 trials.
+### END OF EXPERIMENT DESIGN

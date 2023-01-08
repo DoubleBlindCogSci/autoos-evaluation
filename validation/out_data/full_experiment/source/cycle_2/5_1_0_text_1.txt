@@ -1,0 +1,3 @@
+There are five regular factors: dtr, wlgsw, pfj, hbkma, and lhe. The dtr factor consists of two levels: "ted" and "rqhh". The wlgsw factor also consists of two levels: "pbvh" and "zkbz". The pfj factor consists of two levels: "ted" and "rqhh". The hbkma factor also consists of two levels: "pbvh" and "zkbz". The lhe factor consists of two levels: "dihh" and "fpmzkq".
+The sovpx factor depends on the dtr and pfj factors and has two levels: "xfxluk" and "qmrrzn". A trial is considered "xfxluk" if the dtr matches the pfj, otherwise, it is considered "qmrrzn".
+We crossed the wlgsw and the sovpx factor.

@@ -1,0 +1,1 @@
+The aumdnp factor depends on the dtx, wcftzr, and jdewe factors and has two levels: "gazr" and "kcn". If the dtx is not equal to the jdewe, then the trial is "gazr". Otherwise, the trial is "kcn".

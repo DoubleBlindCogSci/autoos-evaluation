@@ -1,0 +1,3 @@
+There are seven regular factors: nnoqy, bac, iopjv, lnnq, svbto, mtro, and ggzo. The nnoqy factor consists of two levels: "xmqn" and "tkhwvj". The bac factor consists of two levels: "isxjfn" and "gmpgkr". The iopjv factor consists of two levels: "xmqn" and "tkhwvj". The lnnq factor consists of two levels: "isxjfn" and "gmpgkr". The svbto factor consists of two levels: "wlmdyb" and "adjimh". The mtro factor consists of two levels: "hgcxa" and "frzn". The ggzo factor consists of two levels: "kzir" and "wddk".
+The ggzo factor depends on the bac and lnnq factors and has two levels: "kzir" and "wddk". If the bac factor matches the lnnq factor, then the trial is considered a "kzir". Otherwise, the trial is considered a "wddk".
+We crossed the iopjv and the svbto factor.

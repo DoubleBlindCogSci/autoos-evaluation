@@ -1,0 +1,1 @@
+The vmgfeo factor depends on a moving trial window (for the last three trials) defined by the dhrnfc, exxlpg, and hbrqgi factors. It has two levels: "dbuz" and "iztnz". If the dhrnfc on the previous trial matches the exxlpg two trials back or the dhrnfc two trials back matches the hbrqgi on the previous trial, then the trial is "dbuz". Otherwise, the trial is "iztnz".

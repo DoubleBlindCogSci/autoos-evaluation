@@ -1,0 +1,1 @@
+The bovds factor depends on a moving trial window (for the last four trials) defined by the fxc factor and has two levels: "micnu" and "zcq". If the fxc on the current trial is "xmpi" or the fxc three trials back is not "ssfjo", then the trial is considered a "micnu". Otherwise, the trial is considered a "zcq".

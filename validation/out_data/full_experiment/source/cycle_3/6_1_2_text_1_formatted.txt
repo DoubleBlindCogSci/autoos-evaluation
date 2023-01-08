@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are six regular factors: kgx, ujbe, cbiwgn, tqlnk, pdhel, and sfe. The kgx factor consists of two levels: "rxrgv" and "xdqhc". The ujbe factor consists of two levels: "jaehg" and "gmnopl". The cbiwgn factor consists of two levels: "rxrgv" and "xdqhc". The tqlnk factor consists of two levels: "jaehg" and "gmnopl". The pdhel factor consists of two levels: "hpziox" and "wisqo". The sfe factor consists of two levels: "nep" and "oqcus".
+### DERIVED FACTORS
+There is a derived factor called latl.
+## latl
+The latl factor depends on the pdhel and ujbe factors and has two levels: "dgcdsk" and "zxrpht". A trial is considered "dgcdsk" if the pdhel matches the ujbe, otherwise, it is considered "zxrpht".
+### EXPERIMENT
+We crossed the cbiwgn and the latl factor. However, the experiment sequences were generated subject to two constraints. First, we allowed for no more than 2 of the same sfe transitions in a row. Second, we allowed for at least 2 of the same ujbe transitions in a row.
+### END OF EXPERIMENT DESIGN

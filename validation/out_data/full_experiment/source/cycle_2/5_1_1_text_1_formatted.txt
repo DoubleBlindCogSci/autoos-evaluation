@@ -1,0 +1,7 @@
+### REGULAR FACTORS
+There are five regular factors: hcwl, mdvxwl, sql, mjwrx, and iaa. The hcwl factor consists of two levels: "yuf" and "mso". The mdvxwl factor also consists of two levels: "ywadjh" and "fskl". The sql factor consists of two levels: "yuf" and "mso". The mjwrx factor also consists of two levels: "ywadjh" and "fskl". The iaa factor consists of two levels: "uqbw" and "gwzp".
+### DERIVED FACTORS
+The uid factor depends on the sql and mdvxwl factors and has two levels: "nfp" and "waj". If the sql factor matches the mdvxwl factor, then the trial is considered a "nfp". Otherwise, the trial is considered a "waj".
+### EXPERIMENT
+We crossed the uid and the hcwl factor. However, the experiment sequences were generated subject to the constraint that exactly 2 trials with the level "waj" in the mjwrx factor occured in a row.
+### END OF EXPERIMENT DESIGN

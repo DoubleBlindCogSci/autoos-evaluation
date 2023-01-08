@@ -1,0 +1,1 @@
+The bfsf factor depends on the transition of the ekav, dway, and auik factors and has two levels: "dzw" and "tkf". If the ekav factor on the current trial matches the dway factor on the previous trial, then the trial is considered a "dzw". Otherwise, the trial is considered a "tkf".

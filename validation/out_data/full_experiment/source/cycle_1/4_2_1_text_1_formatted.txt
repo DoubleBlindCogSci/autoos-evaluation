@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are four regular factors: zzdmwj, gkn, evz, and toiht. The zzdmwj factor consists of two levels: "ioetr" and "jlbmqt". The gkn factor also consists of two levels: "ocdj" and "ovk". The evz factor consists of two levels: "ioetr" and "jlbmqt". The toiht factor consists of two levels: "ocdj" and "ovk".
+### DERIVED FACTORS
+There are two derived factors: khvnl and fdan.
+## khvnl
+The khvnl factor depends on the regular factors evz and zzdmwj and has two levels: "kknbk" and "gebdr". A trial is considered "kknbk" if the evz matches the zzdmwj, otherwise, it is considered "gebdr".
+## fdan
+The fdan factor depends on the gkn and toiht factors and has two levels: "cjjghi" and "urts". A trial is considered "cjjghi" if the gkn matches the toiht, otherwise, it is considered "urts".
+### EXPERIMENT
+We crossed the khvnl and the gkn factor. However, the experiment sequences were generated subject to the constraint that at least 2 trials with the level "ioetr" in the evz factor occured in a row.
+### END OF EXPERIMENT DESIGN

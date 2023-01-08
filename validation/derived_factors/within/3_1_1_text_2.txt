@@ -1,0 +1,1 @@
+The jmerhw factor depends on the bolifi factor and has three levels: "gtlcen", "ximt", and "acwjo". If the bolifi is "tdstz", then the jmerhw is "gtlcen". If the bolifi is "ndl", then the jmerhw is "ximt". Otherwise, the jmerhw is "acwjo".

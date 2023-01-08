@@ -1,0 +1,1 @@
+The zaab factor depends on the biu, fva, and xpdbm factors and has two levels: "btyx" and "mbxq". If the biu is not equal to the xpdbm and the biu is equal to the fva, then the trial is "btyx". Otherwise, the trial is "mbxq".

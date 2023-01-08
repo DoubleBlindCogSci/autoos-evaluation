@@ -1,0 +1,57 @@
+from sourpea.primitives import *
+from sourpea.util import *
+import pandas as pd
+import os
+_dir=os.path.dirname(__file__)
+### REGULAR FACTORS
+quhe = Factor("quhe", ["oqz", "cvgtz"])
+qkd = Factor("qkd", ["fkwgkc", "ovb"])
+zndnek = Factor("zndnek", ["zaan", "vuvwil"])
+ssrm = Factor("ssrm", ["moxd", "vidjt"])
+bmnekx = Factor("bmnekx", ["nli", "dkac"])
+zymbyg = Factor("zymbyg", ["filecw", "qbbpn"])
+lmhje = Factor("lmhje", ["ldipz", "vegiuf"])
+
+### EXPERIMENT
+design=[quhe,qkd,zndnek,ssrm,bmnekx,zymbyg,lmhje]
+sequence_code_1=trials_from_csv(os.path.join(_dir,"out_code_1/7_0_0.csv"))
+sequence_code_2=trials_from_csv(os.path.join(_dir,"out_code_2/7_0_0.csv"))
+nr_crossings = 1
+nr_factors=7
+p_code_1 = 0
+p_code_2 = 0
+crossing = quhe
+block = Block(design,crossing,[])
+p_code_1 += block.test(sequence_code_1)["pValue"] >= 1
+p_code_2 += block.test(sequence_code_2)["pValue"] >= 1
+crossing = qkd
+block = Block(design,crossing,[])
+p_code_1 += block.test(sequence_code_1)["pValue"] >= 1
+p_code_2 += block.test(sequence_code_2)["pValue"] >= 1
+crossing = zndnek
+block = Block(design,crossing,[])
+p_code_1 += block.test(sequence_code_1)["pValue"] >= 1
+p_code_2 += block.test(sequence_code_2)["pValue"] >= 1
+crossing = ssrm
+block = Block(design,crossing,[])
+p_code_1 += block.test(sequence_code_1)["pValue"] >= 1
+p_code_2 += block.test(sequence_code_2)["pValue"] >= 1
+crossing = bmnekx
+block = Block(design,crossing,[])
+p_code_1 += block.test(sequence_code_1)["pValue"] >= 1
+p_code_2 += block.test(sequence_code_2)["pValue"] >= 1
+crossing = zymbyg
+block = Block(design,crossing,[])
+p_code_1 += block.test(sequence_code_1)["pValue"] >= 1
+p_code_2 += block.test(sequence_code_2)["pValue"] >= 1
+crossing = lmhje
+block = Block(design,crossing,[])
+p_code_1 += block.test(sequence_code_1)["pValue"] >= 1
+p_code_2 += block.test(sequence_code_2)["pValue"] >= 1
+crossing = [quhe,qkd,zndnek,ssrm,bmnekx,zymbyg,lmhje]
+block = Block(design,crossing,[])
+p_code_1 += block.test(sequence_code_1)["pValue"] >= 1
+p_code_2 += block.test(sequence_code_2)["pValue"] >= 1
+df=pd.read_csv(os.path.join(_dir,"result_sour.csv"))
+df.loc[len(df.index)] = [p_code_1, p_code_2, nr_crossings, nr_factors]
+df.to_csv(os.path.join(_dir,"result_sour.csv"), index=False)

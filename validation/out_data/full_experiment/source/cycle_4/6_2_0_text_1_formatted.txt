@@ -1,0 +1,11 @@
+### REGULAR FACTORS
+There are six regular factors: ewdwvi, jnz, pdu, zieg, pqogoq, and jck. The ewdwvi factor consists of two levels: "bvzbbc" and "hlv". The jnz factor consists of two levels: "nmdg" and "mook". The pdu factor consists of two levels: "bvzbbc" and "hlv". The zieg factor consists of two levels: "nmdg" and "mook". The pqogoq factor consists of two levels: "jhn" and "kym". The jck factor consists of two levels: "dghcps" and "sfxk".
+### DERIVED FACTORS
+There are two derived factors: sni and fodyo.
+## sni
+The sni factor depends on the zieg and jnz factors and has two levels: "lqrzx" and "kcz". If the zieg factor matches the jnz factor, then the trial is considered a "lqrzx". Otherwise, the trial is considered a "kcz".
+## fodyo
+The fodyo factor depends on the pdu and ewdwvi factors and has two levels: "glom" and "tnxby". If the pdu factor matches the ewdwvi factor, then the trial is considered "glom". Otherwise, the trial is considered "tnxby".
+### EXPERIMENT
+We crossed the jck and the fodyo factor.
+### END OF EXPERIMENT DESIGN

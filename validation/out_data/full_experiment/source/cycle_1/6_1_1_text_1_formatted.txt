@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are six regular factors: gqw, wdp, nrbavq, xlpll, xne, and cee. The gqw factor consists of two levels: "ohpe" and "rbclng". The wdp factor consists of two levels: "eioqw" and "rrvin". The nrbavq factor consists of two levels: "ohpe" and "rbclng". The xlpll factor consists of two levels: "eioqw" and "rrvin". The xne factor consists of two levels: "erjk" and "yow". The cee factor consists of two levels: "yqzavs" and "gof".
+### DERIVED FACTORS
+There is a derived factor called zzsf.
+## zzsf
+The zzsf factor depends on the nrbavq and wdp factors and has two levels: "cmjwd" and "yffeb". A trial is considered "cmjwd" if the nrbavq matches the wdp, otherwise, it is considered "yffeb".
+### EXPERIMENT
+We crossed the nrbavq and the cee factor. All experiment sequences contained at least 39 trials.
+### END OF EXPERIMENT DESIGN

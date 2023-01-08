@@ -1,0 +1,8 @@
+### REGULAR FACTORS
+There are four regular factors: ozffyg, eor, ulmvu, and ydyizj. The ozffyg factor consists of two levels: "ktpg" and "ezgdye". The eor factor also consists of two levels: "bvwt" and "odzvfn". The ulmvu factor consists of two levels: "ktpg" and "ezgdye". The ydyizj factor consists of two levels: "bvwt" and "odzvfn".
+### DERIVED FACTORS
+## vnud
+The vnud factor depends on the eor and ydyizj factors and has two levels: "cmru" and "hjfu". A trial is considered "cmru" if the eor matches the ydyizj, otherwise, it is considered "hjfu".
+### EXPERIMENT
+We crossed the ulmvu and the vnud factor. However, the experiment sequences were generated subject to the constraint that no more than 3 of the same vnud transitions could occur in a row.
+### END OF EXPERIMENT DESIGN

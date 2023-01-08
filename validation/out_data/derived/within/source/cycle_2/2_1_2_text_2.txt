@@ -1,0 +1,1 @@
+The grgt factor depends on the vzlmpb factor and has two levels: "rou" and "vod". If the vzlmpb is "hpdf" or "pcjx", the grgt is "rou". If the vzlmpb is neither "hpdf" nor "pcjx", the grgt is "vod".

@@ -1,0 +1,5 @@
+### REGULAR FACTORS
+There are six regular factors: qgplsu, jjssm, xaqd, utkb, nsmo, and qpgyns. The qgplsu factor consists of two levels: "pboibu" and "zqdel". The jjssm factor consists of two levels: "riesgx" and "mxl". The xaqd factor consists of two levels: "pboibu" and "zqdel". The utkb factor consists of two levels: "riesgx" and "mxl". The nsmo factor consists of two levels: "zaxwi" and "zews". The qpgyns factor consists of two levels: "dha" and "upj".
+### EXPERIMENT
+We crossed the qpgyns and the nsmo factor. However, the experiment sequences were generated subject to the constraint that at least 4 trials with the same level in the qpgyns factor occured in a row.
+### END OF EXPERIMENT DESIGN

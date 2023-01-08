@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are five regular factors: mogppw, ygz, jxmg, zuxak, and imj. The mogppw factor consists of two levels: "nsmj" and "hbav". The ygz factor also consists of two levels: "lloiv" and "epic". The jxmg factor consists of two levels: "nsmj" and "hbav". The zuxak factor consists of two levels: "lloiv" and "epic". The imj factor consists of two levels: "pkq" and "aeiu".
+### DERIVED FACTORS
+There is a derived factor called iaf.
+## iaf
+The iaf factor depends on the zuxak and ygz factors and has two levels: "pgzwhl" and "acco". A trial is considered "pgzwhl" if the zuxak matches the ygz, otherwise, it is considered "acco".
+### EXPERIMENT
+We crossed the jxmg and the zuxak factor. However, the experiment sequences were generated subject to the constraint that exactly 4 trials with the level "nsmj" in the mogppw factor occured. All experiment sequences contained at least 27 trials.
+### END OF EXPERIMENT DESIGN

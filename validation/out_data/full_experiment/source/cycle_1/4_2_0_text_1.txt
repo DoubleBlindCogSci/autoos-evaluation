@@ -1,0 +1,4 @@
+There are four regular factors: qzek, wvzc, pejrm, and gyi. The qzek factor consists of two levels: "obt" and "crkyja". The wvzc factor also consists of two levels: "gcwqk" and "bpufk". The pejrm factor consists of two levels: "obt" and "crkyja". The gyi factor also consists of two levels: "gcwqk" and "bpufk".
+The ljk factor depends on the qzek and wvzc factors and has two levels: "kxcbx" and "qcge". A trial is considered "kxcbx" if the qzek matches the wvzc, otherwise, it is considered "qcge".
+The htotnl factor depends on the gyi and pejrm factors and has two levels: "thnf" and "iacvkn". A trial is considered "thnf" if the gyi factor matches the pejrm factor, otherwise, it is considered "iacvkn".
+We crossed the ljk and the pejrm factor.

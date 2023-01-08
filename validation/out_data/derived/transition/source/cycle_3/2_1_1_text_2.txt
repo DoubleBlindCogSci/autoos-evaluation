@@ -1,0 +1,1 @@
+The ltb factor depends on the transition of the apgpx factor and has two levels: "euacj" and "ctra". If the apgpx on the current trial is "hdfrzu" or the apgpx on the previous trial is "yvhm", then the trial is considered a "euacj". Otherwise, the trial is considered a "ctra".

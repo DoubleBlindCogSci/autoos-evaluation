@@ -1,0 +1,1 @@
+The ibv factor depends on the iiyrcc, tevaa, and uabdyq factors and has three levels: "ivi", "cbi", and "nncbtr". If the tevaa factor matches the iiyrcc factor, then the trial is "ivi". If the tevaa factor does not match the iiyrcc factor and the uabdyq factor matches the iiyrcc factor, then the trial is "cbi". Otherwise, the trial is "nncbtr".

@@ -1,0 +1,3 @@
+There are five regular factors: kfb, awwzy, moeh, hfwn, and bvdn. The kfb factor consists of two levels: "fvdwcy" and "isd". The awwzy factor consists of two levels: "haqh" and "nunh". The moeh factor consists of two levels: "fvdwcy" and "isd". The hfwn factor consists of two levels: "haqh" and "nunh". The bvdn factor consists of two levels: "evws" and "illqj".
+The bvdn factor depends on the hfwn and awwzy factors and has two levels: "evws" and "illqj". A trial is considered "evws" if the hfwn factor matches the awwzy factor, otherwise, it is considered "illqj".
+We crossed the kfb and the awwzy factor.

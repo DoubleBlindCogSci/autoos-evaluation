@@ -1,0 +1,3 @@
+There are four regular factors: lno, tula, ygadz, and qxlh. The lno factor consists of two levels: "sudp" and "nogr". The tula factor also consists of two levels: "bkcad" and "cjm". The ygadz factor consists of two levels: "sudp" and "nogr". The qxlh factor also consists of two levels: "bkcad" and "cjm".
+The xkx factor depends on the tula and lno factors and has two levels: "ezcq" and "wgybo". If the tula factor matches the lno factor, then the trial is considered "ezcq". Otherwise, the trial is considered "wgybo".
+We crossed the qxlh and the xkx factor. However, the experiment sequences were generated subject to the constraint that at least 3 trials with the level "bkcad" in the tula factor occured. All experiment sequences contained at least 28 trials.

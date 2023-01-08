@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are four regular factors: bwiy, duutsq, gjhyl, and gkp. The bwiy factor consists of two levels: "nkk" and "wpgc". The duutsq factor also consists of two levels: "kwt" and "aovg". The gjhyl factor consists of two levels: "nkk" and "wpgc". The gkp factor consists of two levels: "kwt" and "aovg".
+### DERIVED FACTORS
+There is a derived factor called ulbw.
+## ulbw
+The ulbw factor depends on the gjhyl and duutsq factors and has two levels: "ygc" and "kuut". If the gjhyl factor matches the duutsq factor, then the trial is considered "ygc". Otherwise, the trial is considered "kuut".
+### EXPERIMENT
+We crossed the ulbw and the gkp factor. However, the experiment sequences were generated subject to the constraint that no more than 4 of the same bwiy transitions could occur in a row.
+### END OF EXPERIMENT DESIGN

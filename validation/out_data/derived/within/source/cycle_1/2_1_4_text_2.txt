@@ -1,0 +1,1 @@
+The vmehak factor depends on the cnb factor and has two levels: "zhj" and "fuhh". If the cnb is not "erk" and not "rdg", then the corresponding vmehak is "zhj", otherwise, it is "fuhh".

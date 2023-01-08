@@ -1,0 +1,2 @@
+There are four regular factors: hix, ijkvct, mowgsv, and axw. The hix factor consists of two levels: "ihhe" and "apzae". The ijkvct factor also consists of two levels: "fbww" and "fna". The mowgsv factor consists of two levels: "ihhe" and "apzae". The axw factor also consists of two levels: "fbww" and "fna".
+We crossed the ijkvct and the axw factor. However, the experiment sequences were generated subject to the constraint that exactly 3 trials with the level "fbww" in the ijkvct factor occured in a row.

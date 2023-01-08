@@ -1,0 +1,4 @@
+There are six regular factors: vce, nacsbx, nqydwt, nizx, qlbbhb, and mmbm. The vce factor consists of two levels: "lblh" and "uer". The nacsbx factor consists of two levels: "dykns" and "fhnvoo". The nqydwt factor consists of two levels: "lblh" and "uer". The nizx factor consists of two levels: "dykns" and "fhnvoo". The qlbbhb factor consists of two levels: "grviw" and "njrmn". The mmbm factor consists of two levels: "fqzevn" and "qstpt".
+The yayb factor depends on the nizx and mmbm factors and has two levels: "uvqryf" and "uaty". A trial is considered "uvqryf" if the nizx matches the mmbm, otherwise, it is considered "uaty".
+The wwukd factor depends on the nqydwt and vce factors and has two levels: "qrmzj" and "cvihx". If the nqydwt matches the vce, then the trial is considered a "qrmzj". Otherwise, the trial is considered a "cvihx".
+We crossed the nqydwt and the nacsbx factor.

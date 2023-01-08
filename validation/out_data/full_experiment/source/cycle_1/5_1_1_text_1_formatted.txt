@@ -1,0 +1,9 @@
+### REGULAR FACTORS
+There are five regular factors: vshu, xekqc, xnffn, dpfsnj, and tpuh. The vshu factor consists of two levels: "delb" and "yzyt". The xekqc factor consists of two levels: "zdxu" and "ydd". The xnffn factor consists of two levels: "delb" and "yzyt". The dpfsnj factor consists of two levels: "zdxu" and "ydd". The tpuh factor consists of two levels: "dtr" and "luunw".
+### DERIVED FACTORS
+There is a derived factor called uqdkg.
+## uqdkg
+The uqdkg factor depends on the dpfsnj and tpuh factors and has two levels: "jxmnij" and "hutd". If the dpfsnj factor matches the tpuh factor, then the trial is considered a "jxmnij". Otherwise, the trial is considered a "hutd".
+### EXPERIMENT
+We crossed the vshu and the tpuh factor. However, the experiment sequences were generated subject to the constraint that no more than 4 of the same uqdkg transitions could occur in a row.
+### END OF EXPERIMENT DESIGN

@@ -1,0 +1,227 @@
+_hum:
+the pon factor depends on the cl factor and has four levels: "left", "right", "up", and "down". if the cl is "re", "gre", "bl", or "brw", then the corresponding pon is "lft", "rght", "p", and "dwn", respectively.
+_gpt3:
+def is_pon_left(cl):
+    return cl == "re"
+def is_pon_right(cl):
+    return cl == "gre"
+def is_pon_up(cl):
+    return cl == "bl"
+def is_pon_down(cl):
+    return cl == "brw"
+pon = Factor("pon", [DerivedLevel("lft", WithinTrial(is_pon_left, [cl])), DerivedLevel("rght", WithinTrial(is_pon_right, [cl])), DerivedLevel("p", WithinTrial(is_pon_up, [cl])), DerivedLevel("dwn", WithinTrial(is_pon_down, [cl]))])
+_hum:
+the cn factor depends on the factors lr and rd and has two levels: "ronis" and "inronis". a trial is considered "ronis" if the lr matches the rd, otherwise, it is considered "inronis". The ratio between "ronis" and "inronis" trials was 7 to 11
+_gpt3:
+def is_cn_ronis(lr, rd):
+    return kr == rd
+def is_cninronis(lr, rd):
+    return not is_congruency_ronis(lr, rd)
+cn = Factor("cn", [DerivedLevel("ronis", WithinTrial(is_congruency_ronis, [lr, rd]), 7), DerivedLevel("inronis", WithinTrial(is_congruency_inronis, [lr, rd]), 11)])
+_hum:
+the parity factor depends on the factor di has two levels: "odd" and "even". a trial is considered "even" if the di is divisible by 2, otherwise, it is considered "odd".
+_gpt3:
+def is_parity_even(di):
+    return (int(di) % 2) == 0
+def is_parity_odd(di):
+    return not is_parity_odd(di)
+parity = Factor("parity", [DerivedLevel("odd", WithinTrial(is_parity_even, [di])),DerivedLevel("even", WithinTrial(is_parity_odd, [di]))])
+_hum:
+the mg factor depends on the factor number has two levels: "large" and "small". a trial is considered "large" if the number is larger than 10, otherwise, it is considered "small".
+_gpt3:
+def is_mg_large(number):
+    return int(number) > 10
+def is_mg_small(number):
+    return not is_mg_large(number)
+mg = Factor("mg", [DerivedLevel("large", WithinTrial(is_mg_large, [number])), DerivedLevel("small", WithinTrial(is_mg_small, [number]))])
+_hum:
+the ruen factor depends on the rol and rad factor and has two levels: "ruent" and "inruent". A trial is considered "ruent" if the rol factor is equal to the rad factor and otherwise it is considered "inruent".
+_gpt3:
+def is_ruen_ruent(rol, rad):
+    return rol == rad
+def is_ruen_inruent(rol, rad):
+    return not is_ruen_ruent(rol, rad)
+ruen = Factor("ruen", [DerivedLevel("ruent", WithinTrial(is_ruen_ruent, [rol, rad])), DerivedLevel("inruent", WithinTrial(is_ruen_inruent, [rol, rad]))])
+_hum:
+the ree factor depends on the factors or, rd, and tsk, and has two levels: "left" and "right". the ree is "left" if the tsk is "or naming" and the or is "red" or if the tsk is "rd reading" and the rd is "green". conversely, the ree is "right" if the tsk is "or naming" and the or is "green" or if the tsk is "rd reading" and the rd is "red".
+_gpt3:
+def is_ree_left(or, rd, tsk):
+    return (tsk == "or naming" and or == "red") or (tsk == "rd reading" and rd == "green")
+def is_ree_right(or, rd, tsk):
+    return (tsk == "or naming" and or == "green") or (tsk == "rd reading" and rd == "red")
+ree = Factor("ree", [DerivedLevel("left", WithinTrial(is_ree_left, [or, rd, tsk])), DerivedLevel("right", WithinTrial(is_ree_right, [or, rd, tsk]))])
+_hum:
+the number ers factor depends on the transition of the number factor and has three levels: "inc", "dt", or "ng". if the number on the current trial is larger than the previous one, then the trial is considered an "inc". if the number on the current trial is equal to the number on the previous trial, then the trial is considered "ng". otherwise, the trial is considered a "dt". The "inc" level occured three times as often as the "ng" and the "dt" level.
+_gpt3:
+def is_number_ers_inc(number):
+    return int(number[-1]) < int(number[0])
+def is_number_ers_ng(number):
+    return int(number[-1]) == int(number[0])
+def is_number_ers_dt(number):
+    return not is_number_ers_inc(number) and not is_number_ers_ng(number)
+number_ers = Factor("number ers", [DerivedLevel("inc", Transition(is_number_transition_inc, [number]),3), DerivedLevel("ng", Transition(is_number_ers_ng, [number])), DerivedLevel("dt", Transition(is_number_ers_dt, [number]))])
+_hum:
+the hit factor has two levels: "correct" and "incorrect". it depends on a moving trial window (for the last four trials) defined by the letter factor. if the letter on the current trial matches the letter three trials back and the letter on the current trial matches the letter one trial back, then the trial is "correct". otherwise, the current trial is "incorrect".
+_gpt3:
+def is_hit_correct(letter):
+    return letter[-3] == letter[0] and letter[-1] == letter[0]
+def is_hit_incorrect(letter):
+    return not is_hit_correct(letter)
+hit = Factor("hit", [DerivedLevel("correct", Window(is_hit_correct, [letter], 4, 1)),DerivedLevel("incorrect",  Window(is_hit_incorrect, [letter], 4, 1))])
+_hum:
+the lure factor has two levels: "yes" and "no". it depends on a moving trial window (for the last two trials) defined by the rter and target factors. if the rter on the current trial matches the rter on the previous trial and the target factor on the current trial is "no", then the current trial is a lure; otherwise, it is not a lure.
+_gpt3:
+def is_lure_yes(rter, target):
+    return target[0] == "no" and rter[-1] == rter[0]
+def is_lure_no(rter, target):
+    return not is_lure_yes(rter, target)
+lure = Factor("lure", [DerivedLevel("yes", Window(is_lure_yes, [rter, target], 2, 1)), DerivedLevel("no",  Window(is_lure_no, [rter, target], 2, 1))])
+_hum:
+the lure factor has two levels: "yes" and "no". it depends on a moving trial window (for the last three trials) defined by the cha factor. if the cha on the current trial matches the cha on the previous trial it is a lure; otherwise, it is not a lure.
+_gpt3:
+def is_lure_yes(cha):
+    return cha[-1] == cha[0]
+def is_lure_no(cha):
+    return not is_lure_yes(cha)
+lure = Factor("lure", [DerivedLevel("yes", Window(is_lure_yes, [cha], 3, 1)), DerivedLevel("no",  Window(is_lure_no, [cha], 3, 1))])
+_hum:
+the color se factor depends on the color factor and has two levels: -1 and 1. if the color is red or blue, then the corresponding color se is -1 or 1, respectively. The -1 level occured 5 times as often as the +1 level
+_gpt3:
+def is_color_se_minus_one(color):
+    return color == "red" or color == "blue"
+def is_color_se_one(color):
+    return not is_color_se_minus_one(color)
+color_se = Factor("color se", [DerivedLevel(-1, WithinTrial(is_color_se_minus_one, [color]),5), DerivedLevel(1, WithinTrial(is_color_se_one, [color]))])
+_hum:
+the cri factor has four levels: "cra", "cro", "cri", and "cru". it depends on a moving trial window (for the last four trials) defined by the ibn factor. if the ibn on the current trial matches the ibn two trials back and the ibn on the last trial is greater then the ibn three trials back, then the trial is "cra". if the ibn on the current trial is "libi" or the ibn on the current trial is the same as the ibn three trials back the cri factor is "cro". If the ibn three trials back is less then the ibn two trials back, the cri factor is "cri" . In all other cases the cri factor is "cru". The "cro" level occured 13 times as much as the "cri" level. The "cra" level occured three times more often then the "cri" level. The "cru" level occured four times as much as the "cri" level.
+_gpt3:
+def is_cri_cra(ibn):
+    return ibn[0] == ibn[-2] and ibn[-1] > ibn[-3]
+def is_cri_cro(ibn):
+    return ibn[-1] == "libi" or ibn[0] == ibn[-3]
+def is_cri_cri(ibn):
+    return ibn[-3] == ibn[-2]
+def is_cri_cru(ibn):
+    return not (is_cri_cra(ibn) or is_cri_cro(ibn) or is_cri_cri(ibn))
+cri = Factor("cri", [DerivedLevel("cra", Window(is_cri_cra, [ibn], 4, 1), 3), DerivedLevel("cro", Window(is_cri_cro, [ibn], 4, 1), 13), DerivedLevel("cri", Window(is_cri_cri, [ibn], 4, 1)), DerivedLevel("cru", Window(is_cri_cru, [ibn], 4, 1), 4)])
+_hum:
+the que factor has three levels: "xzlo", "laa", "3". it depends on a moving trial window (for the last four trials) defined by the ben factor. if the ben on the current trial matches the ben of the last trial, then the que factor is "xzlo". if the ben on the current trial is "onk", then the que factor is laa. If the ben of the last trial is not equal to the ben two trials back then the que is "3".
+_gpt3:
+def is_que_xzlo(ben):
+    return ben[0] == ben[-1]
+def is_que_laa(ben):
+    return ben[0] == "onk"
+def is_que_3(ben):
+    return ben[-1] != ben[-2]
+que = Factor("que", [DerivedLevel("xzlo", Window(is_que_xzlo, [ben], 4, 1)), DerivedLevel("laa", Window(is_que_laa, [ibn], 4, 1)), DerivedLevel("3", Window(is_que_3, [ben], 4, 1))])
+_hum:
+the obo la factor has two levels: "i" and "a". it depends on a moving trial window (for the last three trials) defined by the ca factor. if the ca on the current trial is bigger then the ca on the previous trial it is a "i", otherwise, it is a "a". The ratio betwee the "i" and the "a" level was 3 to 9.
+_gpt3:
+def is_obo_la_i(ca):
+    return ca[0] > ca[-1]
+def is_obo_la_a(ca):
+    return not is_obo_la_i(ca)
+obo_la = Factor("obo la", [DerivedLevel("i", Window(is_obo_la_i, [ca], 3, 1), 3), DerivedLevel("a",  Window(is_obo_la_a, [ca], 3, 1), 9)])
+_hum:
+the rabo factor has two levels: "1" and "2". it depends on a moving trial window (for the last three trials) defined by the ribi factor. if the ribi on the current trial matches the ribi two trials back and the ibi on the current trial does not match the ribi one trial back, then the trial is "1". Otherewise it is "2".
+_gpt3:
+def is_rabo_1(ribi):
+    return ribi[0] == ribi[-2] and ribi[0] != ribi[-1]
+def is_rabo_2(ribi):
+    return not is_rabo_1(ribi)
+rabo = Factor("rabo", [DerivedLevel("1", Window(is_rabo_1, [ribi], 3, 1), 3), DerivedLevel("2", Window(is_rabo_2, [ribi], 3, 1))])
+_hum:
+the naba lu factor depends on the transition of the nibi and has three levels: "onko", "doko", or "daka". if the nibi on the current trial is not the same as in the previous one, then the trial is considered an "onko". it is "doko" if the nibi of the previous trial is greater then on the current one. otherwise, the trial is considered a "daka". The "onko" level and the "doko" level appeared in the ratio eight to twelve. The "onko" level and the "daka" appeared in the ratio eight to ten.
+_gpt3:
+def is_naba_lu_onko(nibi):
+    return nibi[0] != nibi[-1]
+def is_naba_lu_doko(nibi):
+    return nibi[-1] > nibi[0]
+def is_naba_lu_daka(nibi):
+    return not is_naba_lu_onko(nibi) and not is_naba_lu_doko(nibi)
+naba_lu = Factor("naba lu", [DerivedLevel("onko", Transition(is_naba_lu_onko, [nibi]),8), DerivedLevel("doko", Transition(is_naba_lu_doko, [nibi]), 12), DerivedLevel("daka", Transition(is_naba_lu_daka, [nibi]), 10)])
+_hum:
+the dibi dabi factor depends on the reng transition and has four levels: "la la la", "li", "lu","lo" or "li bi". if the reng on the current trial is "jip" or it is bigger then in previous one, then the trial is an "la la la". if the reng of the current trial minus 1 is lower then the reng of the previous trial it is a "li" trial. if the reng of the previous trial is greater then the on the current one it is a "lu" trial. If the reng of the current trial is "obun" and the reng of the previous trial is not "aba" then the trial is a "lo" trial. If the reng of the previous trial is not "ob lik" and the reng of the current trial is "ob lik" then the trial is a "li bi" trial.
+_gpt3:
+def is_dibi_dabi_la_la_la(reng):
+    return reng[0] == "jip" or reng[0] > reng[-1]
+def is_dibi_dabi_li(reng):
+    return reng[0] - 1 < reng[-1]
+def is_dibi_dabi_lu(reng):
+    return reng[-1] > reng[0]
+def is_dibi_dabi_lo(reng):
+    return reng[0] == "obun" and reng[-1] != "aba"
+def is_dibi_dabi_li_bi(reng):
+    return reng[-1] != "ob lik" and reng[0] == "ob lik"
+dibi_dabi = Factor("dibi dabi", [DerivedLevel("la la la", Transition(is_dibi_dabi_la_la_la, [reng])), DerivedLevel("li", Transition(is_dibi_dabi_li, [reng])), DerivedLevel("lu", Transition(is_dibi_dabi_lu, [reng])), DerivedLevel("lo", Transition(is_dibi_dabi_lo, [reng])), DerivedLevel("li bi", Transition(is_dibi_dabi_li_bi, [reng]))])
+_hum:
+The wav pi du factor depend on the transition of the hil. It is "ja ho knu tik" if the hil of the previous trial is "jop ti karw" and the hil of the current trial is not "jop ti karw". It is "jaba jap jap" if the hil of the current trial is not "jobo" but the hil of the previous one is. Finally, it is "xa" if the hil of the previous trial is "ja ja".
+_gpt3:
+def is_wav_pi_du_ja_ho_knu_tik(hil):
+    return hil[-1] == "jop ti karw" and hil[0] != "jop ti karw"
+def is_wav_pi_du_jaba_jap_jap(hil):
+    return hil[0] != "jobo" and hil[-1] == "jobo"
+def is_wav_pi_du_xa(hil):
+    return hil[-1] == "ja ja"
+wav_pi_du = Factor("wav pi du", [DerivedLevel("ja ho knu tik", Transition(is_wav_pi_du_ja_ho_knu_tik, [hil])), DerivedLevel("jaba jap jap", Transition(is_wav_pi_du_jaba_jap_jap, [hil])), DervedLevel("xa", Transition(is_wav_pi_du_xa, [hil]))])
+_hum:
+the ta tro factor depends on the transition of the task and has the levels: "f si", "f repeat", "fr transition", "fr repeat", and "f first". if the task on the current trial is "ber task" and the task on the previous trial is "letter task" or if the task on the current trial is "letter task" and the task on the previous trial is "ber task", then the trial is considered a "f si". if the task on the current trial is "ber task" and the task on the previous trial is "ber task" or if the task on the current trial is "letter task" and the task on the previous trial is "letter task", then the trial is considered a "f repeat". if the task on the current trial is "fr choice task" and the task on the previous trial is not "fr choice task", then the trial is considered a "fr transition". if the task on the current trial is "fr choice task" and the task on the previous trial is "fr choice task", then the trial is considered a "fr repeat". if the task on the current trial is not "fr choice task" and the task on the previous trial is "fr choice task", then the trial is considered a "f first". the ratio between the "f si" level and the "f repeat" level was 3 to 1. the ratio between the "fr transition" level and the "fr repeat" level was 4 to 4. the ratio between the "forced first" level and the "fr repeat" level was 4 to 4.
+_gpt3:
+def is_ta_tro_f_si(task):
+    return (task[0] == "ber task" and task[-1] == "letter task") or (task[0] == "letter task" and task[-1] == "ber task")
+def is_ta_tro_f_repeat(task):
+    return (task[0] == "ber task" and task[-1] == "ber task") or (task[0] == "letter task" and task[-1] == "letter task")
+def is_ta_tro_fr_transition(task):
+    return task[0] == "fr choice task" and task[-1] != "fr choice task"
+def is_ta_tro_fr_repeat(task):
+    return task[0] == "fr choice task" and task[-1] == "fr choice task"
+def is_ta_tro_f_first(task):
+    return task[0] != "fr choice task" and task[-1] == "fr choice task"
+ta_tro = Factor("task transition", [DerivedLevel("f si", Transition(is_ta_tro_f_si, [task]), 3), DerivedLevel("f repeat", Transition(is_ta_tro_f_repeat, [task])), DerivedLevel("fr transition", Transition(is_ta_tro_fr_transition, [task]), 4), DerivedLevel("fr repeat", Transition(is_ta_tro_fr_repeat, [task]), 4), DerivedLevel("f first", Transition(is_ta_tro_f_first, [task]), 4)])
+_hum:
+the mrob factor has two levels: 1 and 2. it depends on a moving trial window (for the last three trials) defined by the xiew factor. if the xiew on the current trial matches the xiew two trials back, then the trial is 1. otherwise, the trial is 2. the ratio between the levels 1 and 2 was six to four.
+_gpt3:
+def is_mrob_1(xiew):
+    return xiew[0] == xiew[-2]
+def is_mrob_2(xiew):
+    return not is_mrob_1(xiew)
+mrob = factor("mrob", [DerivedLevel(1, Window(is_mrob_1, [xiew], 3, 1), 6), DerivedLevel(2, Window(is_mrob_2, [xiew], 3, 1), 4)])
+_hum:
+The wjjh factor depends on the transition of the cridpl, fra, and sqha factors and has three levels: "vek", "nfzz", and "fcou". If the fra on the current trial is the same as the cridpl on the previous trial, then the trial is considered a "vek". If the fra on the current trial is not the same as the cridpl on the previous trial and the cridpl on the current trial is the same as the sqha on the previous trial, then the trial is considered a "nfzz". Otherwise, the trial is considered a "fcou".
+_gpt3:
+def is_wjjh_vek(fra, cridpl, sqha):
+    return fra[0] == cridpl[-1]
+def is_wjjh_nfzz(fra, cridpl, sqha):
+    return fra[0] != cridpl[-1] and cridpl[0] == sqha[-1]
+def is_wjjh_fcou(fra, cridpl, sqha):
+    return not (is_wjjh_vek(fra, cridpl, sqha) or is_wjjh_nfzz(fra, cridpl, sqha))
+wjjh = Factor("wjjh", [DerivedLevel("vek", Transition(is_wjjh_vek, [fra, cridpl, sqha])), DerivedLevel("nfzz", Transition(is_wjjh_nfzz, [fra, cridpl, sqha])), DerivedLevel("fcou", Transition(is_wjjh_fcou, [fra, cridpl, sqha]))])
+_hum:
+The dsny factor has two levels: "hix" and "cvbb". It depends on a moving trial window (for the last four trials) defined by the lnc, ziyuus, and fpj factors. If the lnc on the current trial does not match the fpj three trials back, then the trial is considered a "hix". Otherwise, the trial is considered a "cvbb".
+_gpt3:
+def is_dsny_hix(lnc, ziyuus, fpj):
+    return lnc[0] != fpj[-3]
+def is_dsny_cvbb(lnc, ziyuus, fpj):
+    return not is_dsny_hix(lnc, ziyuus, fpj)
+dsny = Factor("dsny", [DerivedLevel("hix", Window(is_dsny_hix, [lnc, ziyuus], 4, 1)), DerivedLevel("cvbb", Window(is_dsny_cvbb, [lnc, ziyuus], 4, 1))])
+_hum:
+The djw factor depends on the factors taaa and vcz and has three levels: "plpx", "mlkbl", and "dosx". If the taaa factor is "fil", then the trial is considered "plpx". If the taaa factor is not "fil" and the vcz factor is "bio", then the trial is considered "mlkbl". Otherwise, the trial is considered "dosx".
+_gpt3:
+def is_djw_plpx(taaa, vcz):
+    return taaa == "fil"
+def is_djw_mlkbl(taaa, vcz):
+    return taaa != "fil" and vcz == "bio"
+def is_djw_dosx(taaa, vcz):
+    return not (is_djw_plpx(taaa) or is_djw_mlkbl(taaa, vcz))
+djw = Factor("djw", [DerivedLevel("plpx", WithinTrial(is_djw_plpx, [taaa, vcz])), DerivedLevel("mlkbl", WithinTrial(is_djw_mlkbl, [taaa, vcz])), DerivedLevel("dosx", WithinTrial(is_djw_dosx, [taaa, vcz]))])
+_hum:
+The wdd factor depends on the factors jbus, xrnu, and hyvj and has three levels: "xvgc", "yfck", and "djnv". A trial is considered "xvgc" if the jbus factor matches the xrnu factor or the xrnu factor is "hja". A trial is considered "yfck" if the jbus factor matches the hyvj factor and does not match the xrnu factor. A trial is considered "djnv" if the jbus factor does not match the xrnu factor and does not match the hyvj factor.
+_gpt3:
+def is_wdd_xvgc(jbus, xrnu, hyvj):
+    return jbus == xrnu or xrnu == "hja"
+def is_wdd_yfck(jbus, xrnu, hyvj):
+    return jbus == hyvj and jbus != xrnu
+def is_wdd_djnv(jbus, xrnu, hyvj):
+    return jbus != xrnu and jbus != hyvj
+wdd = Factor("wdd", [DerivedLevel("xvgc", WithinTrial(is_wdd_xvgc, [jbus, xrnu])), DerivedLevel("yfck", WithinTrial(is_wdd_yfck, [jbus, xrnu, hyvj])), DerivedLevel("djnv", WithinTrial(is_wdd_djnv, [jbus, xrnu, hyvj]))])
+_hum:

@@ -1,0 +1,4 @@
+There are four regular factors: wzltf, xkx, adasp, and kbdfej. The wzltf factor consists of two levels: "wkh" and "jfimzl". The xkx factor also consists of two levels: "xdmxg" and "yrlgcb". The adasp factor consists of two levels: "wkh" and "jfimzl". The kbdfej factor consists of two levels: "xdmxg" and "yrlgcb".
+The hwsmo factor depends on the wzltf and kbdfej factors and has two levels: "mpopni" and "wicxmx". A trial is considered "mpopni" if the wzltf matches the kbdfej, otherwise, it is considered "wicxmx".
+The ejihet factor depends on the adasp and xkx factors and has two levels: "ylb" and "fedzj". A trial is considered "ylb" if the adasp matches the xkx, otherwise, it is considered "fedzj".
+We crossed the ejihet and the kbdfej factor. However, the experiment sequences were generated subject to the constraint that no more than 2 of the same adasp transitions could occur in a row.

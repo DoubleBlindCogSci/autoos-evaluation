@@ -1,0 +1,4 @@
+There are four regular factors: crs, iaqirv, ivfjrc, and auc. The crs factor consists of two levels: "pmg" and "qkb". The iaqirv factor consists of two levels: "qvcp" and "xxpwn". The ivfjrc factor consists of two levels: "pmg" and "qkb". The auc factor consists of two levels: "qvcp" and "xxpwn".
+The iuovx factor depends on the crs and auc factors and has two levels: "nqlgn" and "iaajvq". A trial is considered "nqlgn" if the crs matches the auc, otherwise, it is considered "iaajvq".
+The mrqv factor depends on the iaqirv and ivfjrc factors and has two levels: "uegs" and "hhguew". If the iaqirv factor matches the ivfjrc factor, then the trial is considered "uegs". Otherwise, the trial is considered "hhguew".
+We crossed the mrqv and the crs factor.
